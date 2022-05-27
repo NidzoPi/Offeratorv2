@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Scraper panel</title>
+        <link rel="icon" href="logoSmall.png">
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="css/offeratorStyles.css">
+        <script type="text/javascript" src="scraper.js"></script>
+        <script type="text/javascript" src="app.js"></script>
+    </head>
+    <body>
+        <img src="/img/Offerator.png">
+        <hr  class="bannerUnderLine">
+        <div class="container">
+            <h2>Input new store URL where deals are:</h2>
+            <form action="/postInsertData" method="POST">
+                <input type="text" class="textField" placeholder="Store URL" name="storeURL" onclick="this.select()">
+                <h2>Deal selector:</h2>
+                <input type="text" class="textField" placeholder="Deal selector" name="dealSelector">
+                <br>
+                <input type="submit" class="button-7" value="Add">
+            </form>
+            <h2 class="checkingH">Check if there is new deals for existing store:</h2>
+            <form action="/postCheckData" method="POST">
+                <input type="text" class="textField" placeholder="Existing store URL" name="exStoreURL" onclick="this.select()">
+                <br>
+                <input type="submit" class="button-7" value="Check">
+            </form>
+            <br>
+            <form action="/checkAllData" method="POST">
+                <input type="submit" class="button-7" value="Check All">
+            </form>
+        </div>
+        <br>
+        <hr  class="bannerUnderLine">
+        <!--<iframe src="https://www.asos.com/us/men/"></iframe>-->
+        
+    </body>
+
+</html>
