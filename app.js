@@ -282,10 +282,15 @@ async function scrapeProduct(currURL, currDealSelector, checkForm) {
     await page.setUserAgent('Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36');
     await page.goto(storeURLScrape);
     
-    sleep(5000);
+    sleep(6000);
 
     function extractHostname(url) {
         var hostname;
+
+        if(url.indexOf('myshopify')>-1){
+          url = url.replace('myshopify','');
+          url = url.replace('..','.');
+        }
         //protocol
       
         if (url.indexOf("//") > -1) {
