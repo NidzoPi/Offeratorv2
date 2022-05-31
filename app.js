@@ -44,16 +44,27 @@ function insertDB(storeURLScrape, storeNameFinal, currDealSelector, codes, curre
     password  : '',
     database  : 'scraperdb'
   });
-
+  if(codes==''){
+    console.log('Deal not found, check selector on: ' + storeNameFinal);
+  }
+  else{
     db.connect((err) => {
       if(err){
         throw err;
       }else{
       console.log('DB connected');
+      let values = [];
       let sql = "INSERT INTO store (storeName, storeURL, dealSelector, deal, timeStam) VALUES ?";
-      let values =[
-         [storeNameFinal, storeURLScrape, currDealSelector, codes, currentDate]    
-      ]
+      if(typeof currDealSelector=='object'){
+        values =[
+          [storeNameFinal, storeURLScrape, currDealSelector[0], codes, currentDate]    
+        ];
+      }
+      else{
+        values =[
+          [storeNameFinal, storeURLScrape, currDealSelector, codes, currentDate]    
+        ];
+      }
       db.query(sql,[values],async function(err, result){
           if(err){
             throw err;
@@ -108,7 +119,8 @@ function insertDB(storeURLScrape, storeNameFinal, currDealSelector, codes, curre
       });
     }
     
-  });      
+  });    
+  }  
 }
 
 function checkGet(checkURL, helper){
@@ -210,6 +222,7 @@ function checkGet(checkURL, helper){
               else{
                 var checkDealResult = result.map(a => a.deal);
                 var checkDealSelector = result.map(x => x.dealSelector);
+
                 console.log('Deal selector for checking store: ' + checkDealSelector);
                 console.log('Deal for checking store: ' + checkDealResult);
                 scrapeProduct(checkURL, checkDealSelector, checkDealResult);
@@ -280,7 +293,12 @@ async function scrapeProduct(currURL, currDealSelector, checkForm) {
     
 
     await page.setUserAgent('Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36');
+    try{
     await page.goto(storeURLScrape);
+    }
+    catch(err){
+      console.log("Can't reach site: " + storeURLScrape);
+    }
     
     sleep(6000);
 
@@ -359,32 +377,56 @@ async function scrapeProduct(currURL, currDealSelector, checkForm) {
     console.log('STORE NAME: ' + storeNameFinal);
 
     await page.screenshot({path: 'test.png'});
-    //console.log('prije funk: ' + dealSelectorScrape);
-    const codes = await page.evaluate ((currDealSelector) => {
-        //let useDeal = dealSelectorScrape;
-        //console.log('poslije funk: ' + dealSelectorScrape);
-        return Array.from(document.querySelectorAll(currDealSelector)).map((x) => x.innerText);
-    },currDealSelector);
+    
+    
+    
 
-    //console.log('TEST:' + checkForm + ' ' + codes[0]);
+    
+    
+    const codes = await page.evaluate ((currDealSelector) => {
+          //let useDeal = dealSelectorScrape;
+          //console.log('poslije funk: ' + dealSelectorScrape);
+          
+        return Array.from(document.querySelectorAll(currDealSelector)).map((x) => x.innerText);
+          
+    },currDealSelector);
+    
+    
+
+    
+  
 
     // insert in db and date_time
     
-    if(checkForm != codes[0]){ 
       
-    let today = new Date();
-
-    let date = today.getFullYear()+'-'+(today.getMonth()+1)+'-'+today.getDate();
-
-    let time = today.getHours() + ":" + today.getMinutes() + ":" + today.getSeconds();
-
-    let dateTime = date+' '+time;
-
+      if(typeof codes[0]==='undefined'){
+          codes[0] = '';
+      }else{
+          codes[0] = codes[0].replace(/(\r\n|\n|\r)/gm, '');
+          if(checkForm != codes[0]){ 
+          
+            let today = new Date();
     
-      
-     
-        insertDB(storeURLScrape, storeNameFinal, currDealSelector, codes[0], dateTime);
+            let date = today.getFullYear()+'-'+(today.getMonth()+1)+'-'+today.getDate();
+    
+            let time = today.getHours() + ":" + today.getMinutes() + ":" + today.getSeconds();
+    
+            let dateTime = date+' '+time;
+    
+            
+              
+            
+                insertDB(storeURLScrape, storeNameFinal, currDealSelector, codes[0], dateTime);
+          }
+      }
+
+      await browser.close();
+
     }
+
+    
+
+    
       
       
     
@@ -393,8 +435,8 @@ async function scrapeProduct(currURL, currDealSelector, checkForm) {
 
     
 
-    await browser.close();
-}
+    
+
 
 
 
@@ -431,4 +473,3 @@ app.post('/checkAllData', (req,res) =>{
 
 // Listen to port 5000
 app.listen(port, () => console.log(`Listening on port ${port}`));
-
