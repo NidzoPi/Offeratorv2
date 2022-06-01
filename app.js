@@ -5,6 +5,7 @@ const mySql = require('mysql');
 const app = express();
 const psl = require('psl');
 const {google} = require('googleapis');
+const fs = require('fs');
 
 // port,pupp,parser
 
@@ -34,6 +35,10 @@ function sleep(milliseconds) {
   } while (currentDate - date < milliseconds);
 }
 
+async function writeReport(storeNameFinal, msg){
+  await fs.appendFileSync("report.txt", msg + storeNameFinal + '\r\n', "UTF-8",{'flags': 'a+'});
+}
+
 // DB connection
 
 function insertDB(storeURLScrape, storeNameFinal, currDealSelector, codes, currentDate){
@@ -46,6 +51,7 @@ function insertDB(storeURLScrape, storeNameFinal, currDealSelector, codes, curre
   });
   if(codes==''){
     console.log('Deal not found, check selector on: ' + storeNameFinal);
+    writeReport(storeNameFinal, 'Deal not found, check selector on: ');
   }
   else{
     db.connect((err) => {
@@ -141,6 +147,15 @@ function checkGet(checkURL, helper){
 
             function extractHostname(url) {
               var hostname;
+
+              if(url.indexOf('myshopify')>-1){
+                url = url.replace('myshopify','');
+                url = url.replace('..','.');
+              }
+              if(url.indexOf('fastclass')>-1){
+                url = url.replace('fastclass','');
+                url = url.replace('..','.');
+              }
               //protocol
             
               if (url.indexOf("//") > -1) {
@@ -298,6 +313,7 @@ async function scrapeProduct(currURL, currDealSelector, checkForm) {
     }
     catch(err){
       console.log("Can't reach site: " + storeURLScrape);
+      writeReport(storeURLScrape, "Can't reach site: ");
     }
     
     sleep(6000);
@@ -307,6 +323,10 @@ async function scrapeProduct(currURL, currDealSelector, checkForm) {
 
         if(url.indexOf('myshopify')>-1){
           url = url.replace('myshopify','');
+          url = url.replace('..','.');
+        }
+        if(url.indexOf('fastclass')>-1){
+          url = url.replace('fastclass','');
           url = url.replace('..','.');
         }
         //protocol
@@ -376,32 +396,49 @@ async function scrapeProduct(currURL, currDealSelector, checkForm) {
 
     console.log('STORE NAME: ' + storeNameFinal);
 
-    await page.screenshot({path: 'test.png'});
+    //await page.screenshot({path: 'test.png'});
     
     
     
 
     
+    //page.waitForSelector(currDealSelector);
     
-    const codes = await page.evaluate ((currDealSelector) => {
+    try{
+    var codes = await page.evaluate ((currDealSelector) => {
           //let useDeal = dealSelectorScrape;
           //console.log('poslije funk: ' + dealSelectorScrape);
-          
         return Array.from(document.querySelectorAll(currDealSelector)).map((x) => x.innerText);
           
     },currDealSelector);
     
+    }catch(err){
+      writeReport(storeNameFinal, 'Navigation problem on: ');
+      console.log('Navigation problem on: ' + storeNameFinal);
+    }
+    
+      
+    
     
 
     
-  
 
     // insert in db and date_time
     
-      
       if(typeof codes[0]==='undefined'){
           codes[0] = '';
+
+          let today = new Date();
+    
+          let date = today.getFullYear()+'-'+(today.getMonth()+1)+'-'+today.getDate();
+    
+          let time = today.getHours() + ":" + today.getMinutes() + ":" + today.getSeconds();
+    
+          let dateTime = date+' '+time;
+
+          insertDB(storeURLScrape, storeNameFinal, currDealSelector, codes[0], dateTime);
       }else{
+          
           codes[0] = codes[0].replace(/(\r\n|\n|\r)/gm, '');
           if(checkForm != codes[0]){ 
           
