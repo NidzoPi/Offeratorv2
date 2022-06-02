@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Jun 01, 2022 at 04:20 PM
+-- Generation Time: Jun 02, 2022 at 01:32 PM
 -- Server version: 10.4.22-MariaDB
 -- PHP Version: 7.4.28
 
@@ -832,7 +832,20 @@ INSERT INTO `store` (`id`, `storeName`, `storeURL`, `dealSelector`, `deal`, `tim
 (981, 'oliverandrain', 'https://oliverandrain.com/', '.banner__text', 'From play time to nap time and everything in between!', '2022-6-1 16:11:52'),
 (982, 'ipassthecpaexam', 'https://ipassthecpaexam.com/cpa-review-discounts/', '.tve-cb>div+div', 'Save $1,300 -- Scroll down for coupon code!', '2022-6-1 16:12:23'),
 (983, 'nationsphotolab', 'https://www.nationsphotolab.com/', '.banner__message', 'ONE MORE DAY: 15% Off all Photo Prints with code SUMMERSHERE. Exclusions apply. SHOP NOW. | Free Shipping on Orders $79+', '2022-6-1 16:13:4'),
-(984, 'jimmyjane', 'https://jimmyjane.com/', '.announcement__bar+div', 'FREE SHIPPING ON US ORDERS $50+', '2022-6-1 16:13:55');
+(984, 'jimmyjane', 'https://jimmyjane.com/', '.announcement__bar+div', 'FREE SHIPPING ON US ORDERS $50+', '2022-6-1 16:13:55'),
+(985, 'amorebeds', 'https://www.amorebeds.com/', '.l-subheader-cell>div>p', 'Rest easy with 20% OFF any mattress and up to 2 FREE Pillows.', '2022-6-2 12:41:4'),
+(986, 'beltoutlet', 'https://www.beltoutlet.com/', '.promo-bar-text', 'Take 20% Off Men\'s Accessories! | Code: DAD22', '2022-6-2 12:42:31'),
+(987, 'lumedeodorant', 'https://lumedeodorant.com/', '.promo_banner__content', 'Free U.S. shipping on orders $25+', '2022-6-2 12:45:23'),
+(988, 'levenger', 'https://www.levenger.com/', '.index-enjory', 'Our Biggest Sale of the Year • Save up to 40%  •  Shop Now', '2022-6-2 12:55:58'),
+(989, 'hellobonafide', 'https://hellobonafide.com/', '.announcement-bar-1', 'Free Shipping On All Subscriptions', '2022-6-2 12:57:23'),
+(990, 'pistoladenim', 'https://www.pistoladenim.com/', '#topbar', 'FREE DOMESTIC SHIPPING ON ORDERS OVER $150', '2022-6-2 12:59:5'),
+(991, 'sizzlefish', 'https://www.sizzlefish.com/', '.promo_banner', 'Call Us Mon-Fri, 7-4 ET At: (833) 603-0888Fast Free Shipping On Orders $100+', '2022-6-2 13:2:10'),
+(992, 'dailyhighclub', 'https://dailyhighclub.com/', '.topTitle+p>span', '$100+ Value for only $29.99', '2022-6-2 13:9:56'),
+(993, 'everyman', 'https://everyman.co/', '.js-top-promo-bar', '      FREE SHIPPING ON USA ORDERS OF $50          Close    ', '2022-6-2 13:15:4'),
+(994, 'reliefband', 'https://www.reliefband.com/', '.homepage_row_guarantee div.iconsseals .h4', 'Free Shipping on All Orders Over $50', '2022-6-2 13:19:20'),
+(995, 'storyboards', 'https://storyboards.io/', '.delivery__info', 'FREE shipping in the US', '2022-6-2 13:20:59'),
+(996, 'tryfi', 'https://tryfi.com/', '.fi-promotion__subtitle', 'GET $70 OFF ', '2022-6-2 13:23:26'),
+(997, 'smokecartel', 'http://smokecartel.com/', '.feature-ribbon', 'Get 5% Off Now by Subscribing', '2022-6-2 13:25:52');
 
 --
 -- Indexes for dumped tables
@@ -852,7 +865,7 @@ ALTER TABLE `store`
 -- AUTO_INCREMENT for table `store`
 --
 ALTER TABLE `store`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=985;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=998;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
