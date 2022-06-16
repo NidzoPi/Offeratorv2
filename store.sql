@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Jun 02, 2022 at 01:32 PM
+-- Generation Time: Jun 16, 2022 at 02:39 PM
 -- Server version: 10.4.22-MariaDB
 -- PHP Version: 7.4.28
 
@@ -845,7 +845,23 @@ INSERT INTO `store` (`id`, `storeName`, `storeURL`, `dealSelector`, `deal`, `tim
 (994, 'reliefband', 'https://www.reliefband.com/', '.homepage_row_guarantee div.iconsseals .h4', 'Free Shipping on All Orders Over $50', '2022-6-2 13:19:20'),
 (995, 'storyboards', 'https://storyboards.io/', '.delivery__info', 'FREE shipping in the US', '2022-6-2 13:20:59'),
 (996, 'tryfi', 'https://tryfi.com/', '.fi-promotion__subtitle', 'GET $70 OFF ', '2022-6-2 13:23:26'),
-(997, 'smokecartel', 'http://smokecartel.com/', '.feature-ribbon', 'Get 5% Off Now by Subscribing', '2022-6-2 13:25:52');
+(997, 'smokecartel', 'http://smokecartel.com/', '.feature-ribbon', 'Get 10% Off Now by Subscribing', '2022-6-2 13:25:52'),
+(1006, 'saatva', 'https://www.saatva.com/', '.bannerBase__text', 'BEAT THE HEAT SUMMER SALE | 12% OFF SITEWIDE | SALE ENDS TODAY', '2022-6-16 13:19:48'),
+(1007, 'zwilling', 'https://www.zwilling.com/us/', '.navbuilder-header-promo__left-col', 'Free shipping on orders $59 and over', '2022-6-16 13:22:48'),
+(1008, 'ais-cpa', 'https://www.ais-cpa.com/', '#custom_html-25 h4', 'Get Up to $1,000 Off Your Review Course!', '2022-6-16 13:24:8'),
+(1009, 'beatthecpa', 'https://beatthecpa.com/discounts/', '.coupon_main-title_inner>h3', 'Save $1,250 Off Becker CPA Pro', '2022-6-16 13:25:28'),
+(1010, 'cpaexamguy', 'https://cpaexamguy.com/cpa-review-discount-codes/', '.coupon_main-title_inner>h3', 'Save $1,250 Off Becker CPA Pro', '2022-6-16 13:27:7'),
+(1011, 'crushbarexam', 'https://crushbarexam.com/course-discounts/', '.coupon_main-title_inner>h3', 'Save 10% off Crushendo Bar Prep Products', '2022-6-16 13:28:24'),
+(1012, 'crushthecpaexam', 'https://crushthecpaexam.com/discounts/', '.coupon_main-title_inner>h3', 'Save $1,250 Off Becker CPA Pro', '2022-6-16 13:30:10'),
+(1013, 'crushthelsatexam', 'https://crushthelsatexam.com/discounts/', '.coupon_main-title_inner>h3', 'Save $500 Off Blueprint LSAT 170+ Course', '2022-6-16 13:30:53'),
+(1014, 'crushthepmexam', 'https://crushthepmexam.com/discounts/', '.coupon_main-title_inner>h3', 'Save 50% Off Master of Project Academy Courses', '2022-6-16 14:7:20'),
+(1015, 'crushtheusmleexam', 'https://crushtheusmleexam.com/discounts/', '.coupon_main-title_inner>h2', 'USMLE PASS PROGRAM DISCOUNT – SAVE UP TO $430', '2022-6-16 14:8:58'),
+(1017, '1791gunleather', 'https://1791gunleather.com/', 'form.klaviyo-form-version-cid_1>div>div:nth-last-child(6) .ql-editor', 'Stay in the know!Sign up for 10% off your first orderand to get email & text updates.', '2022-6-16 14:26:24'),
+(1018, '1sale', 'https://www.1sale.com/submit/', '.sign_parent>p', 'Get up to 75% off your favorite brands and products every day!', '2022-6-16 14:28:22'),
+(1019, '360cookware', 'https://www.360cookware.com/', '.hero__description', 'Save 22% Off All Cookware & Bakeware. Use Code: DAD22', '2022-6-16 14:29:49'),
+(1020, '6amrun', 'https://6amrun.com/', '.sasakwa-te-content>p>span', 'Subscribe to our mailing list and receive 20% OFF, just for you!', '2022-6-16 14:31:19'),
+(1021, 'adamsgolftvoffer', 'https://www.adamsgolftvoffer.com/?mid=11591083', '.banner--hero', 'LIMITED TIME PACKAGE DEALS – BUY ONE, GET ONE 50% OFF!', '2022-6-16 14:34:56'),
+(1022, 'adidascases', 'https://adidascases.com/eu/', '.UspWidget>div:nth-last-child(3)>p', 'FREE SHIPPING OVER €30', '2022-6-16 14:36:45');
 
 --
 -- Indexes for dumped tables
@@ -865,7 +881,7 @@ ALTER TABLE `store`
 -- AUTO_INCREMENT for table `store`
 --
 ALTER TABLE `store`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=998;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=1023;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
