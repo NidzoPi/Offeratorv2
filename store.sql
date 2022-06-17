@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Jun 16, 2022 at 02:39 PM
+-- Generation Time: Jun 17, 2022 at 04:21 PM
 -- Server version: 10.4.22-MariaDB
 -- PHP Version: 7.4.28
 
@@ -861,7 +861,67 @@ INSERT INTO `store` (`id`, `storeName`, `storeURL`, `dealSelector`, `deal`, `tim
 (1019, '360cookware', 'https://www.360cookware.com/', '.hero__description', 'Save 22% Off All Cookware & Bakeware. Use Code: DAD22', '2022-6-16 14:29:49'),
 (1020, '6amrun', 'https://6amrun.com/', '.sasakwa-te-content>p>span', 'Subscribe to our mailing list and receive 20% OFF, just for you!', '2022-6-16 14:31:19'),
 (1021, 'adamsgolftvoffer', 'https://www.adamsgolftvoffer.com/?mid=11591083', '.banner--hero', 'LIMITED TIME PACKAGE DEALS – BUY ONE, GET ONE 50% OFF!', '2022-6-16 14:34:56'),
-(1022, 'adidascases', 'https://adidascases.com/eu/', '.UspWidget>div:nth-last-child(3)>p', 'FREE SHIPPING OVER €30', '2022-6-16 14:36:45');
+(1022, 'adidascases', 'https://adidascases.com/eu/', '.UspWidget>div:nth-last-child(3)>p', 'FREE SHIPPING OVER €30', '2022-6-16 14:36:45'),
+(1023, 'aed', 'https://www.aed.us/', '.content.center-section', 'FREE SHIPPING ON ORDERS OVER $99!', '2022-6-17 12:40:41'),
+(1024, 'airocollective', 'https://airocollective.com/', '.announcement-bar__message', 'BUY 2+ WALLETS, SAVE 15% USING CODE: BUYMORE', '2022-6-17 12:42:56'),
+(1025, 'alexisjae', 'https://alexisjae.com/', '.announcement-bar__message', 'FREE shipping on all orders over $250!', '2022-6-17 12:45:19'),
+(1026, 'aliciaadamsalpaca', 'https://www.aliciaadamsalpaca.com/', '.topBar div.row h6', 'FREE DELIVERY IN US + EARN REWARDS', '2022-6-17 12:47:4'),
+(1027, 'alliedshirts', 'https://www.alliedshirts.com/', '.promo-bar', '40% OFF ALL SHIRTS + FREE SHIPPING! 2-WEEK DELIVERY!', '2022-6-17 12:47:42'),
+(1028, 'alphaindustries', 'https://www.alphaindustries.com/', '.footer-refer', 'REFER A FRIEND$25.00 OFF FOR YOU AND A FRIENDGET $25 OFF', '2022-6-17 12:49:46'),
+(1029, 'amberjack', 'https://www.amberjack.shop/', '.slick-track>p', 'Free Shipping & Free Returns ????', '2022-6-17 12:50:41'),
+(1030, 'anakcosmetics', 'https://anakcosmetics.com/', '[data-node=\"6u5esowklif2\"]>div>div:nth-last-child(4)', '					Get 20% Off Dad\'s Kit		', '2022-6-17 12:56:59'),
+(1031, 'apexgamingpcs', 'https://apexgamingpcs.com/', '.announcement__text', 'Use Code SummerIsHere For 5% Off | Wait Times For New Orders Is Currently 2-6 Weeks', '2022-6-17 12:58:40'),
+(1032, 'aporganics', 'https://aporganics.com/shipping-returns/', '.page-content>p:nth-last-child(14)', 'FREE Shipping anywhere in the Continental United States on orders of $50 or more.', '2022-6-17 13:1:35'),
+(1033, 'arfacemask', 'https://arfacemask.com/', '.o-announcement-bar', 'Limited time Offer: FREE SHIPPING for ALL orders over €100!', '2022-6-17 13:2:9'),
+(1034, 'ariat', 'https://www.ariat.com/', '.header-banner_carousel', 'Become an Ariat Insider for free shipping, free returns, & more Insider-only perks! Join Now', '2022-6-17 13:3:48'),
+(1035, 'armitron', 'https://www.armitron.com/', '.announcement-link-text', 'FREE U.S. SHIPPING ON ALL ORDERS OVER $50', '2022-6-17 13:4:36'),
+(1036, 'ashapops', 'https://ashapops.com/', '.announcement-bar__message', 'FREE SHIPPING NATIONWIDE', '2022-6-17 13:5:10'),
+(1037, 'asystem', 'https://www.asystem.com/', '[data-testid=\"POPUP\"]', 'WOULD YOU LIKE 15%OFF YOUR FIRST ORDER?Join our community of high performersfor updates on our latest innovations andpromos—with no disruptions from spam.Yes, please.No, thanks', '2022-6-17 13:11:4'),
+(1038, 'audiobooksnow', 'https://www.audiobooksnow.com/', '.container-fluid h1.h1caption+div h2', 'Get 50% off your first audiobook.', '2022-6-17 13:13:31'),
+(1040, 'avoyatravel', 'https://www.avoyatravel.com/', '#offCanvasWrapper span', 'Flash Savings! Through June 18th, receive up to $1,000 Cash Back on ALMOST ALL 2022 vacations. Call today for additional details.', '2022-6-17 13:19:42'),
+(1041, 'aweinspired', 'https://aweinspired.com/', '.slick-track>a>p', 'Get $30 off when you spend $175+ with code: STORY30', '2022-6-17 13:21:24'),
+(1042, 'azunafresh', 'https://azunafresh.com/', '.shipping-info', '                    FREE SHIPPING:                     Orders Over $35 | New 12 oz Refill Pouches                ', '2022-6-17 13:23:23'),
+(1043, 'amino-vital', 'https://www.amino-vital.com/', '.topbar-section>div>p', 'FREE SHIPPING ON ALL ORDERS $50+', '2022-6-17 13:34:8'),
+(1044, 'bannersonthecheap', 'https://www.bannersonthecheap.com/', '.promo-bar', 'LIMITED TIME ONLY! BUY TODAY AND SAVE 35% OFF BANNERS! + SHIPS IN 24HRS!', '2022-6-17 13:35:6'),
+(1045, 'battlingblades', 'https://battlingblades.com/', '.cart-progress-step.initial', 'FREE SHIPPING on orders over $200﻿', '2022-6-17 13:57:6'),
+(1046, 'becausemarket', 'https://becausemarket.com/', '.announcement__message', 'Enjoy free shipping on orders over $25', '2022-6-17 13:59:7'),
+(1047, 'bedjet', 'https://bedjet.com/', '.announcement-bar', 'FATHER\'S DAY SALE - UP TO 30% OFF ALREADY APPLIED + SIGN UP FOR EXTRA DISCOUNTS', '2022-6-17 13:59:50'),
+(1048, 'behno', 'https://behno.com/', '.promo-banner__text', 'CLICK HERE TO ACCESS OUR LIMITED TIME SALE. FREE SHIPPING WITHIN THE USA.', '2022-6-17 14:3:0'),
+(1049, 'belladahl', 'https://www.belladahl.com/', '.swiper-wrapper>div:nth-last-child(3)', 'Free shipping on US orders.', '2022-6-17 14:4:51'),
+(1050, 'belleandjune', 'http://belleandjune.com/', '.sal_full_div_second', 'Tableware 15% off $500+ CODE: HOMEMEAL', '2022-6-17 14:5:58'),
+(1051, 'beyondpolish', 'https://www.beyondpolish.com/', '#qab_message', 'FREE SHIPPING OVER $40   |   Code: SPLURGE40*U.S. orders only. Cart must be $40+. Can\'t combine with other codes. Ends 6/18 @11:59pm pst.', '2022-6-17 14:10:3'),
+(1052, 'bidetmate', 'https://bidetmate.com/', '#second-headers>div>div', 'FREESHIIPING', '2022-6-17 14:11:24'),
+(1053, 'bioproteintech', 'https://bioproteintech.com/', '[data-testid=\"klaviyo-form-UiECE5\"] .ql-editor', 'LIMITED TIMEGET $20 OFF', '2022-6-17 14:19:11'),
+(1054, 'bloomsociety', 'https://bloomsociety.com/', '.homepage-section a+a p', 'First time orders use discount code FIRSTBLOOM for 10% OFF!', '2022-6-17 14:22:9'),
+(1055, 'bohemianmama', 'https://www.bohemianmama.com/', '.cw-modal-body', 'Unlock 10% OFF& Shop SustainablyCONTINUE', '2022-6-17 14:23:50'),
+(1056, 'botaskin', 'http://botaskin.com/', '.elementor-element-27f0fe3a', '*Enter coupon code BOTA40 at checkout to receive 40% off your order. Offer not valid with any other promotions.', '2022-6-17 14:31:5'),
+(1057, 'bowlersmart', 'https://www.bowlersmart.com/', '.nav-left', '              Shop Now, Pay Later, Interest free with afterpay & affirm - learn how. Join Striking Rewards & earn 50 bonus points today!          ', '2022-6-17 14:31:58'),
+(1058, 'boxdog', 'https://boxdog.com/', '#shopify-section-header>.announcement-bar', 'FREE TRAVEL WATER BOTTLE WITH ANY MULTI-MONTH SUBSCRIPTION! USE CODE WATER', '2022-6-17 14:35:44'),
+(1059, 'brighton', 'https://www.brighton.com/', '.tickersInner>a+a', '		FREE SHIPPING –   On $75+ Orders & Free Easy Returns. MORE INFO.		', '2022-6-17 14:37:14'),
+(1060, 'bruush', 'https://bruush.com/', '.announcement-bar__content', 'FREE SHIPPING AND NO DUTIES WITHIN THE U.S. & CANADA', '2022-6-17 14:38:3'),
+(1061, 'buildasign', 'https://www.buildasign.com/', '.promo-bar', 'PROMO APPLIED: 20% OFF EVERYTHING WITH FREE SHIPPING!', '2022-6-17 14:38:41'),
+(1062, 'buttsnorkeler', 'https://buttsnorkeler.com/', '#via-subscribers-popup__subtitle', 'UNLOCK 15% OFF', '2022-6-17 15:0:28'),
+(1063, 'buymymagiccarpet', 'https://buymymagiccarpet.com/', '.slick-track>div+div', 'FREE SHIPPING on all orders!', '2022-6-17 15:2:27'),
+(1064, 'c2whealth', 'https://c2whealth.com/', '.pxs-announcement-bar-text-desktop', '30% off + Free Shipping over $30Ships within 1 business day', '2022-6-17 15:3:7'),
+(1065, 'calistatools', 'https://calistatools.com/', '.promo--link', '2 FOR $39 EMBELLISH ROOT TOUCH-UP - SHOP NOW', '2022-6-17 15:4:13'),
+(1066, 'cannaaidshop', 'https://www.cannaaidshop.com/', '.site-top-message', 'Free Shipping on Orders over $99 ', '2022-6-17 15:5:5'),
+(1067, 'cannaflower', 'https://cannaflower.com/', '#free-ship-alerts', 'FREE shipping with $50 purchase!', '2022-6-17 15:5:46'),
+(1068, 'canvasonthecheap', 'https://www.canvasonthecheap.com/', '.l-header__promo', 'Spring Sale! Up to 85% off Canvas! FREE UPGRADE TO RUSH!', '2022-6-17 15:6:48'),
+(1069, 'canvasprints', 'https://canvasprints.com/', '#r-1653326603219', 'BRING OUTDOOR ADVENTURETO YOUR WALLS!10% OFFCANVAS AND POSTERSUSE CODE SUNNY10', '2022-6-17 15:8:8'),
+(1070, 'catboxclassics', 'https://catboxclassics.com/', '.announcement-bar__message', 'FREE SHIPPING ON ORDERS OVER $45! ORDERS SHIP SAME OR NEXT DAY', '2022-6-17 15:9:14'),
+(1071, 'cbdhealthcollection', 'https://cbdhealthcollection.com/', '#text_block-33-3316', 'FREE SHIPPING ON ALL ORDERS!', '2022-6-17 15:15:20'),
+(1072, 'cbdmd', 'https://www.cbdmd.com/', '.header-freeshipping', 'FREE SHIPPING ON ALL ORDERS $59.99+', '2022-6-17 15:16:59'),
+(1073, 'cellarswineclub', 'http://cellarswineclub.com/', '.elementor-widget-container>p', 'Free Shipping Always!', '2022-6-17 15:18:15'),
+(1074, 'cleanorigin', 'https://www.cleanorigin.com/', '#clo-top-msg span+span', 'FREE SHIPPING', '2022-6-17 15:24:51'),
+(1075, 'clearprobiotics', 'https://clearprobiotics.com/', '.announcement-bar__content', 'SPECIAL SUBSCRIPTION OFFER: $9.95 + S&H First Order | Save 65%', '2022-6-17 15:25:31'),
+(1076, 'colorescience', 'https://www.colorescience.com/', '.swiper-wrapper>div+div', 'FREE FACE SHIELD BRONZEWITH ORDERS $125+ ($42 VALUE)', '2022-6-17 15:29:34'),
+(1077, 'arfacemask', 'https://arfacemask.com/', '.o-announcement-bar', 'Limited time Offer: FREE SHIPPING for ALL orders over €100!', '2022-6-17 15:30:20'),
+(1078, 'copperstateraffle', 'https://copperstateraffle.com/overview', '.event-title', 'COPPER20Promo Deadline!', '2022-6-17 15:32:36'),
+(1079, 'corrosionx', 'https://www.corrosionx.com/', '.subscribe_area>h2', 'Sign up for Corrosion Technologies news today, and get an extra 10% off!', '2022-6-17 15:33:38'),
+(1080, 'covesmart', 'https://www.covesmart.com/', '.promoBannerSubscribe-module--promo-title--pXSVn', 'Father\'s Day Sale– 60% Off Equipment + FREE HD Camera Ends Sunday', '2022-6-17 15:34:32'),
+(1081, 'cubebik', 'https://www.cubebik.com/', '#custom-store-notice>p', 'Free Shipping for Orders Over $150', '2022-6-17 15:57:25'),
+(1082, 'cufflinks', 'https://www.cufflinks.com/', '.header.links', '15% Off | use promo code: DAPPER', '2022-6-17 15:58:32'),
+(1083, 'darngoodyarn', 'https://www.darngoodyarn.com/', '.announcement-text', 'CLUB MEMBERS SAVE AN EXTRA 5%', '2022-6-17 15:59:39');
 
 --
 -- Indexes for dumped tables
@@ -881,7 +941,7 @@ ALTER TABLE `store`
 -- AUTO_INCREMENT for table `store`
 --
 ALTER TABLE `store`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=1023;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=1084;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
