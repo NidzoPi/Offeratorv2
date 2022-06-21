@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Jun 17, 2022 at 04:21 PM
+-- Generation Time: Jun 21, 2022 at 03:59 PM
 -- Server version: 10.4.22-MariaDB
 -- PHP Version: 7.4.28
 
@@ -921,7 +921,36 @@ INSERT INTO `store` (`id`, `storeName`, `storeURL`, `dealSelector`, `deal`, `tim
 (1080, 'covesmart', 'https://www.covesmart.com/', '.promoBannerSubscribe-module--promo-title--pXSVn', 'Father\'s Day Sale– 60% Off Equipment + FREE HD Camera Ends Sunday', '2022-6-17 15:34:32'),
 (1081, 'cubebik', 'https://www.cubebik.com/', '#custom-store-notice>p', 'Free Shipping for Orders Over $150', '2022-6-17 15:57:25'),
 (1082, 'cufflinks', 'https://www.cufflinks.com/', '.header.links', '15% Off | use promo code: DAPPER', '2022-6-17 15:58:32'),
-(1083, 'darngoodyarn', 'https://www.darngoodyarn.com/', '.announcement-text', 'CLUB MEMBERS SAVE AN EXTRA 5%', '2022-6-17 15:59:39');
+(1083, 'darngoodyarn', 'https://www.darngoodyarn.com/', '.announcement-text', 'CLUB MEMBERS SAVE AN EXTRA 5%', '2022-6-17 15:59:39'),
+(1084, 'davincivaporizer', 'https://www.davincivaporizer.com/', '.top-header>.global-message', '20% OFF IQC VAPORIZER + DOUBLE POINTS. CODE DAD20', '2022-6-21 14:19:4'),
+(1085, 'decorjunky', 'https://decorjunky.com/', '.notification-bar', '80% OFF CANVAS SALE ENDS TONIGHT! THANK YOU FOR SHOPPING WITH US ❤️', '2022-6-21 14:21:41'),
+(1086, 'dia', 'https://www.dia.com/', '.promo-banner>div>span', '30% off your first Shop order with code WELCOME30', '2022-6-21 14:24:53'),
+(1087, 'doors', 'https://doors.nyc/', '.promo-banner__content', ' FREE shipping and returns within the USA. For international shipping, please contact: customercare@doors.nyc', '2022-6-21 14:25:42'),
+(1088, 'drbrite', 'https://www.drbrite.com/?_atid=Umr2DcgQuWzqAFcDKybiqiOkWaiZO7', '.announcement-bar__text', 'Free Shipping on Orders $99+', '2022-6-21 14:28:12'),
+(1089, 'drinkbimble', 'https://drinkbimble.com/', '#qab_message', 'Shipping Always Free!! 2 hr delivery available in Manhattan! Same day in Brooklyn, LA and Chicago on all 12 packs', '2022-6-21 14:29:24'),
+(1090, 'sierra', 'https://www.sierra.com/', '.promo-bar', 'Free Shipping on Orders $89+ With Code: SHIP89. See Details.', '2022-6-21 14:34:48'),
+(1091, 'chowsangsang', 'https://www.chowsangsang.com/en/home', '.slick-track>div:nth-last-child(5)>span>a', 'Charme Privilege | Selected charms 30% off, 1 free cord for 2 Charme | Shop now', '2022-6-21 14:42:45'),
+(1092, 'sleefs', 'https://sleefs.com/', '.kl-private-reset-css-Xuajs1>.ql-snow>.ql-editor>p+p', 'Take 20% off', '2022-6-21 14:46:32'),
+(1093, 'smilebrilliant', 'https://www.smilebrilliant.com/', '#dynamic-react-root+div', 'Get $25', '2022-6-21 14:49:45'),
+(1094, 'smiledirectclub', 'https://smiledirectclub.com/', '.modal-banner', 'Limited Time: $18 kit FREE with return. Use code: SAVE2SMILE. CLICK HERE TO GET STARTED.', '2022-6-21 14:50:45'),
+(1095, 'humanscale', 'https://www.humanscale.com/', '.promo-banner', 'Free Shipping + 30 Day Risk-Free Returns*', '2022-6-21 14:52:19'),
+(1096, 'halfpricedrapes', 'https://www.halfpricedrapes.com/', '.header-coupon', 'Save Using Code: SUMSUN22 | Important COVID-19 Information', '2022-6-21 14:54:46'),
+(1097, 'easycanvasprints', 'https://www.easycanvasprints.com/', '.promo-bar', 'Spring Sale! Up to 85% Off Canvas! FREE UPGRADE TO RUSH SHIPPING!', '2022-6-21 14:58:37'),
+(1098, 'nutrisystem', 'https://www.nutrisystem.com/', '.promo-banner', ' Today\'s Special: Save 50% or More on All Plans + Free Shipping! That\'s over $300 in savings!†details', '2022-6-21 15:0:20'),
+(1099, 'smartbuyglasses', 'https://www.smartbuyglasses.com/', '#topbannerimg>a', 'SHOP UP TO 70% OFF SUNGLASSES!', '2022-6-21 15:23:59'),
+(1100, 'lacolombe', 'https://www.lacolombe.com/', '.announcement-bar__main', 'TODAY ONLY: $25 COLD BREW & LATTE 12-PACKS (AND FRIDGE PACKS!)', '2022-6-21 15:25:30'),
+(1101, 'issaonline', 'https://www.issaonline.com/', 'p.Typography-sc-1gdzesr-0', 'FLASH SALE — OVER 40% OFF CERTIFIED PERSONAL TRAINER + TWO FREE GIFTS', '2022-6-21 15:27:8'),
+(1102, 'studentuniverse', 'https://www.studentuniverse.com/', '.amazon-banner .col-md-6', 'Prime Student members save up to 10% more on flights and hotels', '2022-6-21 15:29:13'),
+(1103, 'savoryspiceshop', 'https://www.savoryspiceshop.com/', '.announcement-bar-text', 'Mexican Street Corn Seasoning Is Back! | Get Free Shipping On Orders Of $49+', '2022-6-21 15:32:54'),
+(1104, 'drinkpurewine', 'https://drinkpurewine.com/', '.anonouncement-text-box', 'Free shipping on US orders over $44.99 | 15% off your first order', '2022-6-21 15:35:49'),
+(1105, 'dronenerds', 'https://www.dronenerds.com/', '.reasons+div div.featbold3', 'Free Shipping Over $599', '2022-6-21 15:39:9'),
+(1106, 'e1011labs', 'https://e1011labs.com/', '.announcement__text', 'FREE US SHIPPING ON ORDERS ABOVE $30', '2022-6-21 15:40:8'),
+(1107, 'eatcandycan', 'https://eatcandycan.com/', '.announcement-bar__message', 'FREE Two-Day Shipping When You Buy 2 or More Cases!', '2022-6-21 15:41:4'),
+(1108, 'ekrinathletics', 'https://ekrinathletics.com/', '.pxs-announcement-bar-text-desktop', 'Free Shipping and Lifetime Warranty', '2022-6-21 15:44:22'),
+(1109, 'elitebaby', 'https://elitebaby.us/', '.announcement-bar__message', 'FREE SHIPPING On All Orders - Customer Service: 843-718-2939 - Email: info@elitebaby.us', '2022-6-21 15:45:3'),
+(1110, 'epnygolf', 'https://www.epnygolf.com/', '.AnnouncementBar__Content', 'GIVE $20 GET $20', '2022-6-21 15:51:14'),
+(1111, 'ergoal', 'https://ergoal.com/', '.announcement-bar__message', 'St. Patrick\'s Day Sale | $100 OFF on Ergoal One and Comfort Plus | Code: 100OFF', '2022-6-21 15:53:20'),
+(1112, 'eyespecs', 'https://www.eyespecs.com/', '.alert-dismissible>p', 'Always Free Shipping & Free 30 Day Returns, on all U.S. orders. details', '2022-6-21 15:55:58');
 
 --
 -- Indexes for dumped tables
@@ -941,7 +970,7 @@ ALTER TABLE `store`
 -- AUTO_INCREMENT for table `store`
 --
 ALTER TABLE `store`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=1084;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=1113;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
