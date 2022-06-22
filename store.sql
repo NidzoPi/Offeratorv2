@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Jun 21, 2022 at 03:59 PM
+-- Generation Time: Jun 22, 2022 at 03:44 PM
 -- Server version: 10.4.22-MariaDB
 -- PHP Version: 7.4.28
 
@@ -950,7 +950,49 @@ INSERT INTO `store` (`id`, `storeName`, `storeURL`, `dealSelector`, `deal`, `tim
 (1109, 'elitebaby', 'https://elitebaby.us/', '.announcement-bar__message', 'FREE SHIPPING On All Orders - Customer Service: 843-718-2939 - Email: info@elitebaby.us', '2022-6-21 15:45:3'),
 (1110, 'epnygolf', 'https://www.epnygolf.com/', '.AnnouncementBar__Content', 'GIVE $20 GET $20', '2022-6-21 15:51:14'),
 (1111, 'ergoal', 'https://ergoal.com/', '.announcement-bar__message', 'St. Patrick\'s Day Sale | $100 OFF on Ergoal One and Comfort Plus | Code: 100OFF', '2022-6-21 15:53:20'),
-(1112, 'eyespecs', 'https://www.eyespecs.com/', '.alert-dismissible>p', 'Always Free Shipping & Free 30 Day Returns, on all U.S. orders. details', '2022-6-21 15:55:58');
+(1112, 'eyespecs', 'https://www.eyespecs.com/', '.alert-dismissible>p', 'Always Free Shipping & Free 30 Day Returns, on all U.S. orders. details', '2022-6-21 15:55:58'),
+(1113, 'finditparts', 'https://www.finditparts.com/', '.fip_global_site_message', 'Summer Sale is on NOW! Save 15% with code: SUMMER15', '2022-6-22 13:7:48'),
+(1114, 'finibrand', 'https://finibrand.com/', '.slick-list>div>.slick-slide+div', 'FREE SHIPPING ON ALL ORDERS OVER $75 TO USA', '2022-6-22 13:10:33'),
+(1115, 'flightguru', 'https://flightguru.com/', '.info-item__text-title', 'Sign up and save up to 50%', '2022-6-22 13:11:48'),
+(1116, 'focl', 'https://focl.com/', '.header--main__strip', 'Free shipping on all orders!', '2022-6-22 13:15:31'),
+(1117, 'fotp', 'https://fotp.com/', '#__next>div>p', 'Get 20% off your food trial today!REDEEM NOW', '2022-6-22 13:17:35'),
+(1118, 'fredericks', 'https://www.fredericks.com/', '.slick-slide+div', 'SETS APPEAL - TAKE 50% OFF BRA & PANTIES WITH CODE: LETSMATCH', '2022-6-22 13:20:29'),
+(1119, 'freedom-grooming', 'https://www.freedom-grooming.com/', '#shopify-section-header-top-bar', 'USE CODE \'SUMMER15\' FOR 15% OFF', '2022-6-22 13:23:32'),
+(1120, 'freedomwellness', 'https://freedomwellness.com/', '.notification-bar__message', 'Free Shipping on all orders over $50', '2022-6-22 13:24:33'),
+(1121, 'freehandhotels', 'https://freehandhotels.com/', 'p>span>span', 'BOOK DIRECT AND SAVE 5%', '2022-6-22 13:27:18'),
+(1122, 'gabrielny', 'https://www.gabrielny.com/', '#top_msg', 'Free Shipping + Free Travel Case   *Limited Time ONLY!', '2022-6-22 13:28:26'),
+(1123, 'galaxytreats', 'https://galaxytreats.com/', '.top-bar-text', 'FREE SHIPPING ON ORDERS $30+', '2022-6-22 13:30:8'),
+(1124, 'gamersaloon', 'https://www.gamersaloon.com/', '.promo1', 'Receive up to a 200% match on your first deposit.', '2022-6-22 13:31:59'),
+(1125, 'gem-water', 'https://gem-water.com/', '.promo_banner', ' FREE SHIPPING $129 & UP* ', '2022-6-22 13:32:35'),
+(1126, 'german-slippers', 'https://www.german-slippers.com/', '#k_title li+li', 'Free Express Shipping to U.S. ✈', '2022-6-22 13:38:0'),
+(1127, 'getensembl', 'https://getensembl.com/', '#announcement-bar', 'DUE TO OVERWHELMING DEMAND WE ARE SOLD OUT. PRE-ORDER NOW AND RECEIVE 20% OFF     →', '2022-6-22 13:39:12'),
+(1128, 'getgruvi', 'https://www.getgruvi.com/', '.TextPopupBlockReadOnly__Container-sc-17y1ni1-0', 'Here’s 10% off', '2022-6-22 13:44:54'),
+(1129, 'getinflows', 'https://getinflows.com/', '.announcement__text', 'FREE SHIPPING ON ALL U.S. ORDERS', '2022-6-22 13:46:19'),
+(1130, 'getjupiter', 'https://getjupiter.com/', '.announcment-bar', 'Free Shipping + Returns', '2022-6-22 13:48:16'),
+(1131, 'gogreenhemp', 'https://www.gogreenhemp.com/', '#comp-kbjje7o0', 'Free Fast Shipping On All Domestic Orders', '2022-6-22 13:50:56'),
+(1132, 'goodessentials', 'https://goodessentials.com/', '.footer-subscription-widget>h5', 'GET 10% OFF YOUR FIRST ORDER WHEN YOU SIGN UP!', '2022-6-22 13:53:2'),
+(1133, 'gotflora', 'https://gotflora.com/', '.announcement-bar>div>div', 'FREE SHIPPING ON ORDERS $75+', '2022-6-22 13:55:47'),
+(1134, 'greatcanvasprints', 'https://www.greatcanvasprints.com/', '.top-offer', 'HUGE CANVAS SALE! Up to 94% Off Canvas Prints + Get an 8x8 for Only $44.00 - Ships Fast! Click for Details', '2022-6-22 13:59:19'),
+(1136, 'heedfoods', 'https://www.heedfoods.com/', '.header__banner-slide', 'Free shipping over $35', '2022-6-22 14:6:14'),
+(1137, 'hemplyfe', 'https://hemplyfe.com/', '.notification-bar__message', 'Free shipping on all orders', '2022-6-22 14:11:30'),
+(1138, 'hempstreets', 'http://hempstreets.com/', '#et-info', 'Free Shipping ALL Orders $100.00', '2022-6-22 14:13:52'),
+(1139, 'hempwardfarms', 'https://www.hempwardfarms.com/', '#comp-k8yv67yn', 'Subscribe now for 10% off your first order!', '2022-6-22 14:14:48'),
+(1140, 'hevias', 'https://hevias.com/', '.announcement__text', 'SHOP WITH CONFIDENCE    FREE SHIPPING. FREE RETURNS.', '2022-6-22 14:15:30'),
+(1141, 'higherstandards', 'https://higherstandards.com/', '.announcement', '15% Off Site Wide Summer Flash Sale! Use Code SUMMER15 at Checkout', '2022-6-22 14:17:32'),
+(1142, 'holifrog', 'https://holifrog.com/', '.announcement-bar__message', '                Enjoy Free Shipping on Orders $75+', '2022-6-22 14:19:4');
+INSERT INTO `store` (`id`, `storeName`, `storeURL`, `dealSelector`, `deal`, `timeStam`) VALUES
+(1143, 'indigocollagen', 'https://www.indigocollagen.com/', '.header-envoy__banner ', 'FREE SHIPPING ON ALL ORDERS $50+FREE SHIPPING ON ALL ORDERS $50+FREE SHIPPING ON ALL ORDERS $50+FREE SHIPPING ON ALL ORDERS $50+FREE SHIPPING ON ALL ORDERS $50+', '2022-6-22 14:27:22'),
+(1144, 'invisawear', 'https://www.invisawear.com/', '.column-quarter+.column-quarter', 'FREE Shipping OnOrders Over $100(US Only)', '2022-6-22 14:29:45'),
+(1145, 'jacksonschips', 'https://jacksonschips.com/', '.announcement-bar__message', 'Free Shipping on orders $40.00 and over', '2022-6-22 14:34:13'),
+(1146, 'javycoffee', 'http://javycoffee.com/', '.ql-editor', 'THIS AIN\'T YOUR REGULAR COFFEE CLUBSCORE 15% OFF NOW', '2022-6-22 14:36:38'),
+(1147, 'jazminebeauty', 'https://www.jazminebeauty.com/', '.announcement--text', 'Free Domestic Shipping On All Orders', '2022-6-22 14:37:19'),
+(1148, 'joyforall', 'https://joyforall.com/', '#zsiqwidget+div', 'SIGN UP TO RECEIVE 5% OFF YOUR FIRST COMPANION PET: ENTER YOUR EMAIL GET UPDATES', '2022-6-22 14:39:45'),
+(1149, 'joymeetshome', 'https://joymeetshome.com/', '.AnnouncementBar__Content', 'WE\'RE MAKING IT EASY TO CREATE A HOME YOU LOVE, WITH FREE SHIPPING ON ORDERS!', '2022-6-22 14:40:30'),
+(1150, 'julielindh', 'https://julielindh.com/', '.promo-bar', '    ❤️FREE U.S Ground Shipping on orders over $50❤️  ', '2022-6-22 14:42:12'),
+(1151, 'justlive', 'https://justlive.com/', '.flickity-slider>div', 'FREE SHIPPING ????on orders over $40', '2022-6-22 14:44:25'),
+(1152, 'karenjaihome', 'https://karenjaihome.com/', '#Footer-1494292487693 p', 'Subscribe to get 15% off, special offers, exclusive releases and designer incentives.', '2022-6-22 14:48:34'),
+(1153, 'kinderbeauty', 'https://kinderbeauty.com/', '.notification-bar__text', 'Get a FREE $125 bonus box with a 6-Month plan', '2022-6-22 14:49:38'),
+(1154, 'kingshavingproducts', 'https://kingshavingproducts.com/', '.promo-bar-text', 'FREE SHIPPING WORLD WIDE!', '2022-6-22 14:50:47');
 
 --
 -- Indexes for dumped tables
@@ -970,7 +1012,7 @@ ALTER TABLE `store`
 -- AUTO_INCREMENT for table `store`
 --
 ALTER TABLE `store`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=1113;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=1155;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
