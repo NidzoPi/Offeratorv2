@@ -1,11 +1,11 @@
 -- phpMyAdmin SQL Dump
--- version 5.1.3
+-- version 5.2.0
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Jun 22, 2022 at 03:44 PM
--- Server version: 10.4.22-MariaDB
--- PHP Version: 7.4.28
+-- Generation Time: Jun 23, 2022 at 04:56 PM
+-- Server version: 10.4.24-MariaDB
+-- PHP Version: 8.1.6
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
@@ -992,7 +992,50 @@ INSERT INTO `store` (`id`, `storeName`, `storeURL`, `dealSelector`, `deal`, `tim
 (1151, 'justlive', 'https://justlive.com/', '.flickity-slider>div', 'FREE SHIPPING ????on orders over $40', '2022-6-22 14:44:25'),
 (1152, 'karenjaihome', 'https://karenjaihome.com/', '#Footer-1494292487693 p', 'Subscribe to get 15% off, special offers, exclusive releases and designer incentives.', '2022-6-22 14:48:34'),
 (1153, 'kinderbeauty', 'https://kinderbeauty.com/', '.notification-bar__text', 'Get a FREE $125 bonus box with a 6-Month plan', '2022-6-22 14:49:38'),
-(1154, 'kingshavingproducts', 'https://kingshavingproducts.com/', '.promo-bar-text', 'FREE SHIPPING WORLD WIDE!', '2022-6-22 14:50:47');
+(1154, 'kingshavingproducts', 'https://kingshavingproducts.com/', '.promo-bar-text', 'FREE SHIPPING WORLD WIDE!', '2022-6-22 14:50:47'),
+(1155, 'koral', 'https://koral.com/', 'div.swiper-wrapper>div+div+div', 'Free Ground Shipping and Free Ground Returns on all U.S. Orders', '2022-6-23 13:0:15'),
+(1156, 'latemornings', 'https://www.latemornings.com/', 'div.top-header div.top-txt', '30 Night Trial I Free Shipping & Returns | Delivery by DHL Express 5-7 business days', '2022-6-23 13:5:45'),
+(1157, 'lazarusartisangoods', 'https://lazarusartisangoods.com/', 'h2.newsletter_hero__title', 'Subscribe and get 15% off your first purchase', '2022-6-23 13:8:56'),
+(1158, 'ledlightstreet', 'https://ledlightstreet.com/', 'div.promo_banner__content>p', 'TODAY ONLY: Up To 70% OFF Site-Wide! 3,500+ 5 star reviews!', '2022-6-23 13:11:1'),
+(1159, 'legionathletics', 'https://legionathletics.com/', '#store-nav>div.desktop-nav', '\"No Return Necessary\" Money-Back Guarantee | Free Shipping & Returns | Save 20%', '2022-6-23 13:13:35'),
+(1160, 'lovemasami', 'https://www.lovemasami.com/', 'div.header-message', 'FREE US SHIPPING FOR $25+ ORDERS', '2022-6-23 13:32:24'),
+(1161, 'lumibloom', 'https://lumibloom.com/', 'p.AnnouncementBar__Content>a', 'FREE GROUND SHIPPING ON ORDERS OF $75 OR MORE. SHOP NOW', '2022-6-23 13:33:27'),
+(1162, 'lumination', 'https://lumination.us/', 'div.newsletter_se h3.section-title', 'Get a 15% Discount Code', '2022-6-23 13:38:7'),
+(1163, 'lv3', 'https://lv3.com/', 'p.AnnouncementBar__Content', 'GET FREE SHIPPING WHEN YOU SPEND $50 OR MORE!', '2022-6-23 13:43:9'),
+(1164, 'madeinnature', 'https://www.madeinnature.com/', '#fsb_bar', 'Free shipping on orders over $49.99', '2022-6-23 13:44:55'),
+(1165, 'marshalls', 'https://www.marshalls.com/us/store/index.jsp', 'div.header-promo-display>p', 'Free Shipping On All Orders Of $89+ | Use Code SHIP89 | Free Returns At Your Local Store | See Details', '2022-6-23 13:55:57'),
+(1166, 'matchasource', 'https://matchasource.com/', 'div.slider-form-wrap>h3', 'GET 10% OFF YOUR FIRST ORDER', '2022-6-23 14:0:34'),
+(1167, 'maxbone', 'https://www.maxbone.com/', 'div.topbar p>a', 'Summer Starts Now: 30% Off Carrier Bags With Code SUMMERTRIP', '2022-6-23 14:4:23'),
+(1168, 'maximhy', 'https://maximhy.com/', 'div.top-header-content div.top-middle-header', 'Free Shipping On Orders Over $29.99', '2022-6-23 14:6:0'),
+(1169, 'mclabels', 'https://www.mclabels.com/', 'div.promo-bar>span', '| PRE-SALES | Up to 50% off! Discounts are already applied to our catalog.', '2022-6-23 14:9:39'),
+(1170, 'megafashion', 'https://megafashion.com/', 'p.popup-subscription__text-line-02', '20%Off', '2022-6-23 14:13:39'),
+(1171, 'mendsleep', 'https://www.mendsleep.com/', 'div.ms_header--sale__offer__bar>h6', 'SPRING SALE ON NOW! - 35% OFF+FREE PILLOWS | SAVINGS OF UP TO $1000', '2022-6-23 14:15:24'),
+(1172, 'meridiangrooming', 'https://www.meridiangrooming.com/', 'p.announcement-text', '50% off our Up-Here Trimmer with code UPHERE50 for a limited time only.', '2022-6-23 14:17:7'),
+(1173, 'mikescigars', 'https://mikescigars.com/', 'div.top-announcement>a', 'WIN A $35 E-GIFT! CLICK HERE FOR INFO', '2022-6-23 14:36:5'),
+(1174, 'miloartsupplies', 'https://miloartsupplies.com/', 'p.announcement-bar__message', 'FREE SHIPPING ON ALL ORDERS', '2022-6-23 14:39:14'),
+(1175, 'mirrormate', 'https://www.mirrormate.com/', 'a.soundest-form-image-right-open', 'SAVE 10%', '2022-6-23 14:40:44'),
+(1176, 'montkush', 'https://www.montkush.com/', 'footer div.fl-module-heading h3>span', 'Sign up for 20% off + FREE Shipping!', '2022-6-23 14:47:24'),
+(1177, 'mosaictileoutlet', 'https://mosaictileoutlet.com/', 'div.site-header__upper>div.tr>span.tll', 'FREE SHIPPING ON SAMPLES & ORDERS OVER $100', '2022-6-23 14:51:21'),
+(1178, 'motta-usa', 'https://motta-usa.com/', 'div.popup--description>p', 'A Gift From Us: 10% Discount When You Subscribe', '2022-6-23 14:54:21'),
+(1179, 'mri-performance', 'https://mri-performance.com/', '#soundest_header_label', 'Save 10% Off', '2022-6-23 15:0:23'),
+(1180, 'my-exo', 'https://my-exo.com/', '#soundest_header_label', '$10 OFF', '2022-6-23 15:2:47'),
+(1181, 'myminimo', 'https://myminimo.com/', 'div.site-alert__text>p>strong', 'Free Shipping on Orders over $125 (US ONLY)', '2022-6-23 15:7:8'),
+(1182, 'nasm', 'https://www.nasm.org/', 'div.heroCTAContent>a', 'SAVE UP TO 35%', '2022-6-23 15:19:36'),
+(1183, 'naturalstacks', 'https://www.naturalstacks.com/', 'div.public-DraftStyleDefault-block', 'Summer Sale | 20% off Memory Collection. Use Code FOOD20', '2022-6-23 15:20:58'),
+(1184, 'naturebox', 'https://naturebox.com/', 'div.Friendbuy-ribbon-transition', 'Get $20', '2022-6-23 15:23:5'),
+(1185, 'nordicoil', 'https://nordicoil.com/', 'p.announcement-bar__message', 'New-look website! Save 25% with code CELEBRATE25 ', '2022-6-23 15:38:46'),
+(1186, 'nuriabeauty', 'https://nuriabeauty.com/', '#NotificationPromo a>span', 'Free Shipping on Orders $35+. Free Returns.', '2022-6-23 15:44:28'),
+(1187, 'oarsandalps', 'https://www.oarsandalps.com/', 'p.announcement-bar__message', 'Free Samples Orders $30+ | Free Shipping Orders $40+ | Always Free Returns', '2022-6-23 15:54:1'),
+(1188, 'onmipatch', 'https://onmipatch.com/', 'p.announcement-bar__message', '✨ Get Free Shipping Over $29✨', '2022-6-23 15:58:47'),
+(1189, 'optividahealth', 'https://www.optividahealth.com/', 'a.notification-bar__message>p', 'CLICK to save up to 35% on bundles!', '2022-6-23 16:6:35'),
+(1190, 'opulentorganics', 'https://opulentorganics.com/', 'body>div', 'Get a Free 500mg Oil Tincture With Your Purchase', '2022-6-23 16:8:29'),
+(1191, 'oweli', 'https://www.oweli.com/', '#textblock-581801>p', 'Free Shipping Over $75', '2022-6-23 16:16:35'),
+(1192, 'oyorooms', 'https://www.oyorooms.com/', 'div.promoCard__contentWrapper', 'Become a MemberAdditional 10% off on stays', '2022-6-23 16:18:17'),
+(1193, 'paleopowderseasoning', 'https://www.paleopowderseasoning.com/', 'div.ql-editor', 'Subscribe to thePALEO POWDER NEWSLETTERto get 15% off TODAY!Sign up now to get the latest discounts, recipes, and news from Paleo Powder!', '2022-6-23 16:28:41'),
+(1194, 'palmbeachnutra', 'https://palmbeachnutra.com/', 'div.promo_banner__content>p>a>strong', 'Free U.S. Shipping on All Orders, Shop Now!', '2022-6-23 16:29:52'),
+(1195, 'paulaschoice', 'https://www.paulaschoice.com/', '#rotatingPromo-1>div>div', 'Free Serum on $85 | CODE: SUPERFOOD', '2022-6-23 16:32:22'),
+(1196, 'hempbombs', 'https://hempbombs.com/', 'div.ql-editor', 'SIGN UP TODAY & SAVEJOIN TODAY & SAVE 15% ON YOUR FIRST ORDER', '2022-6-23 16:37:44'),
+(1197, 'plumbing-deals', 'https://plumbing-deals.com/', 'div.head-01 p>a', 'FREE STANDARD SHIPPING ON ALL ORDERS!', '2022-6-23 16:48:48');
 
 --
 -- Indexes for dumped tables
@@ -1012,7 +1055,7 @@ ALTER TABLE `store`
 -- AUTO_INCREMENT for table `store`
 --
 ALTER TABLE `store`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=1155;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=1198;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
