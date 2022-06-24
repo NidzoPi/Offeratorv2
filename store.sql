@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Jun 23, 2022 at 04:56 PM
+-- Generation Time: Jun 24, 2022 at 05:12 PM
 -- Server version: 10.4.24-MariaDB
 -- PHP Version: 8.1.6
 
@@ -1035,7 +1035,59 @@ INSERT INTO `store` (`id`, `storeName`, `storeURL`, `dealSelector`, `deal`, `tim
 (1194, 'palmbeachnutra', 'https://palmbeachnutra.com/', 'div.promo_banner__content>p>a>strong', 'Free U.S. Shipping on All Orders, Shop Now!', '2022-6-23 16:29:52'),
 (1195, 'paulaschoice', 'https://www.paulaschoice.com/', '#rotatingPromo-1>div>div', 'Free Serum on $85 | CODE: SUPERFOOD', '2022-6-23 16:32:22'),
 (1196, 'hempbombs', 'https://hempbombs.com/', 'div.ql-editor', 'SIGN UP TODAY & SAVEJOIN TODAY & SAVE 15% ON YOUR FIRST ORDER', '2022-6-23 16:37:44'),
-(1197, 'plumbing-deals', 'https://plumbing-deals.com/', 'div.head-01 p>a', 'FREE STANDARD SHIPPING ON ALL ORDERS!', '2022-6-23 16:48:48');
+(1197, 'plumbing-deals', 'https://plumbing-deals.com/', 'div.head-01 p>a', 'FREE STANDARD SHIPPING ON ALL ORDERS!', '2022-6-23 16:48:48'),
+(1198, 'prepexpert', 'https://prepexpert.com/', 'span.top-discount-message', '$300 OFF Courses With Promo Code SATBDAY', '2022-6-24 10:2:9'),
+(1199, 'pretzels', 'https://www.pretzels.com/', 'div.ticker-bar a>p', 'Order Today - Arrives in 3 Business Days. Free $25 Gift Card With Orders Over $100!', '2022-6-24 10:6:14'),
+(1200, 'prima', 'https://www.prima.co/', 'footer h4>p', 'Sign up to get uplifted and receive 15% off your first order.', '2022-6-24 10:8:59'),
+(1201, 'projectnursery', 'https://shop.projectnursery.com/', 'div.section-subheading.rte>p', 'Enjoy 10% off your first purchase! We look forward to sending you exclusive offers.', '2022-6-24 10:23:57'),
+(1202, 'prolab', 'https://prolab.com/', 'div.static-banner-left>p', 'FREE SHIPPING ON ALL DOMESTIC ORDERS WEIGHING UP TO 1LB', '2022-6-24 10:26:49'),
+(1203, 'golfdiscount', 'https://www.golfdiscount.com/', 'div.links_over_header>a>span', 'Free Shipping on all Orders Over $99! *some exceptions apply.', '2022-6-24 10:29:53'),
+(1204, 'prosoria', 'https://www.prosoria.com/', 'div.c-util-bar__offer>a', 'GET 20% OFF YOUR INITIAL ORDER + FREE SHIPPING', '2022-6-24 10:33:4'),
+(1205, 'psychedelicwater', 'https://psychedelicwater.com/', 'div.footer-block__newsletter>h2', 'GET 10% OFF:', '2022-6-24 10:37:23'),
+(1206, 'purerelief', 'https://purerelief.com/', 'div.announcement-bar__inner', 'Free Shipping on orders over $100 - Shop Now', '2022-6-24 10:39:51'),
+(1207, 'realeats', 'https://www.realeats.com/', 'div.promo-rail__text-lg>div', 'Order now and SAVE 30% on all meal plans! Code BIG30 applied at checkout.', '2022-6-24 10:50:28'),
+(1208, 'realestateschooler', 'https://www.realestateschooler.com/', 'div.coupon_main-title_inner>h3', 'Enroll Today to Get 20% off Real Estate Express', '2022-6-24 10:54:16'),
+(1209, 'reasonhealth', 'https://reasonhealth.com/', 'span.elementor-heading-title', 'Give the gift of nutrition!Use code SAVE10 for $10 off orders over $75.', '2022-6-24 11:0:34'),
+(1210, 'robotvacuums', 'https://robotvacuums.com/', 'div.ql-editor>p>strong', '$10 OFF', '2022-6-24 11:33:21'),
+(1211, 'rthvi', 'https://rthvi.com/', '#newsletter-modal-form-newsletter_signup2', 'NEWSLETTER SUBSCRIPTIONSubscribe & get 10% discount on entire order. Use Code RTHVI10', '2022-6-24 11:36:40'),
+(1212, 'rxremediesinc', 'https://www.rxremediesinc.com/', 'h2.elementor-heading-title', 'New Customers SAVE 20%On Their First Order', '2022-6-24 11:38:17'),
+(1213, 'saatva', 'https://www.saatva.com/', '[data-selector=\"promoBannerMsgMobile\"]>span', 'BEAT THE RUSH! JULY 4TH BEST DEAL EARLY ACCESS | Up to $450 off | Ends Monday 6/27', '2022-6-24 11:45:19'),
+(1214, 'safeandfair', 'https://www.safeandfair.com/', 'div.pencil-banner p', 'Free Shipping on orders over $40', '2022-6-24 11:49:1'),
+(1215, 'saganlife', 'https://www.saganlife.com/', 'span.freeShipping', 'FREE SHIPPING* ON ALL ORDERS OVER $50', '2022-6-24 11:52:37'),
+(1216, 'sahaselfcare', 'https://sahaselfcare.com/', 'div.swiper-wrapper>div:last-child div.bulletinwp-bulletin-content', 'Free shipping on US orders', '2022-6-24 11:57:7'),
+(1217, 'sandiegohat', 'https://www.sandiegohat.com/', '#AnnouncementSlide-1524770292306', 'FREE SHIPPINGon all orders over $75', '2022-6-24 12:10:8'),
+(1218, 'saveyewear', 'https://www.saveyewear.com/', '#esns_box_title', 'START WITH20% OFF', '2022-6-24 12:11:52'),
+(1219, 'seabedee', 'https://seabedee.org/', 'div.notification-center>a', 'FREE SHIPPING ON ALL ORDERS OVER $30 SHOP NOW', '2022-6-24 12:18:59'),
+(1220, 'betokencbd', 'https://betokencbd.com/', 'div.et_pb_blurb_description>p', 'Free shipping  on all orders over $100 and all orders when you join the Good Mood Club', '2022-6-24 13:0:22'),
+(1221, 'shopinspiredhome', 'https://shopinspiredhome.com/', 'div.newsletter-text>p', 'Join our list to get 5% Off on your first purchase and be the first to hear about newest glam furniture, design tips, special events and exclusive sales!', '2022-6-24 13:3:7'),
+(1222, 'shopthenovogratz', 'https://www.shopthenovogratz.com/', '#newsletter h2', 'Do you want 10% off your first order?', '2022-6-24 13:5:34'),
+(1223, 'simplewishes', 'https://simplewishes.com/', 'div.cc-announcement__inner', 'FREE LIPPLE BALM WHEN YOU SPEND $50! (value of $12.99) Add Lipple to cart & enter code LIPPLE50 at checkout.', '2022-6-24 13:18:55'),
+(1224, 'sirenishotels', 'https://sirenishotels.com/', 'div.note.bottomleft.typeWithoutIconAndImage p', '¡Regístrate en Sirenis Friends y te devolvemos el 5% de tu reserva!', '2022-6-24 13:21:58'),
+(1225, 'sirhempco', 'https://sirhempco.com/', 'div.elementor-widget-heading h6.elementor-heading-title', '???? FREE 1-3 DAY SHIPPING ON ORDERS $49+', '2022-6-24 13:25:2'),
+(1226, 'slimsation', 'https://slimsation.com/', 'div.ImageHero--newsletter h2.SectionHeader__Heading', 'SAVE $10 ON YOUR NEXT ORDER WHEN YOU JOIN OUR EMAIL LIST', '2022-6-24 13:36:23'),
+(1227, 'soldejaneiro', 'https://soldejaneiro.com/', 'div.prefooter>div>a', 'FREE SHIPPINGon US orders over $35', '2022-6-24 13:49:8'),
+(1228, 'soulinsole', 'https://soulinsole.com/', 'p.AnnouncementBar__Content', 'For a limited time...buy any 3 items, get 10% OFF with code B310', '2022-6-24 13:57:16'),
+(1229, 'spoonfulofcomfort', 'https://www.spoonfulofcomfort.com/coupons/', 'div.wp-block-group__inner-container h1', 'Soup-prise! Get 10% off your order now!', '2022-6-24 14:9:55'),
+(1230, 'spoonsleep', 'https://www.spoonsleep.com/', 'a.promo--link>strong', 'SAVE 10% WHEN YOU SIGN UP FOR OUR NEWSLETTER - FINANCING AVAILABLE - FREE DELIVERY - 100 NIGHT SLEEP GUARANTEE', '2022-6-24 14:16:25'),
+(1231, 'stacyadams', 'https://www.stacyadams.com/', '#content-section-promo div.content-block-text', 'UP TO60% OFF CLEARANCEWHEN YOU USE YOUR 20% OFF PROMO CODEPROMO CODE: SCLRS2 | LIMITED TIME ONLYSHOP CLEARANCE', '2022-6-24 14:20:1'),
+(1232, 'steakchop', 'https://steakchop.com/', 'div.v-toolbar__content>div', '      Free Shipping Always    ', '2022-6-24 14:30:24'),
+(1233, 'stethems', 'https://www.stethems.com/', '#AnnouncementSlider div.announcement-slider__slide>span', 'Additional 15% Off With Code ST15', '2022-6-24 14:32:26'),
+(1234, 'superfoodshot', 'https://superfoodshot.com/', 'div.newsletter__subheading.newsletter__text>p>strong', 'Join our Superfoodies. Receive blog and sales updates. Plus, get 25% off your first purchase.', '2022-6-24 14:40:18'),
+(1235, 'superspeciosa', 'https://superspeciosa.com/', 'footer p.elementor-icon-box-description', 'Subscribe for rewards, promotions, and exclusive discounts. We\'ll also give you free shipping on your first order!', '2022-6-24 14:57:22'),
+(1236, 'teachersdiscovery', 'https://www.teachersdiscovery.com/', 'div>center>p>b', 'TEACHERS-ONLY SPECIAL  •  FREE SHIPPING ON PERSONAL CREDIT CARD ORDERS  •  Code TEACHER', '2022-6-24 15:35:59'),
+(1237, 'texas-standard', 'https://www.texas-standard.com/', 'div.CustomBenefits__BenefitContainer>div>p', 'We offer free economy shipping on orders over $95. Need it faster? Check out our priority shipping option.', '2022-6-24 15:45:32'),
+(1238, 'theauris', 'https://theauris.com/', 'div.announcement-bar__text>p', 'Free Shipping & Easy Returns', '2022-6-24 15:49:7'),
+(1239, 'bouqs', 'https://bouqs.com/', '#ltkpopup-contents', 'ENJOY20% OFFyour first order when you sign up below', '2022-6-24 15:56:35'),
+(1240, 'thecbdistillery', 'https://www.thecbdistillery.com/', 'div.shop-subscriptions__heading>span', 'Subscribe to Save 30%Plus, FREE Shipping (a $9 value)', '2022-6-24 15:59:41'),
+(1241, 'thefeed', 'https://thefeed.com/', 'div.rounded-circle.bg-light>div', 'Free ShippingGet Free Shipping on US orders over $49', '2022-6-24 16:10:41'),
+(1242, 'theharmonycompany', 'https://www.theharmonycompany.com/', '#simple-banner>div>span', ' $45 OFF Orders $125+ (USE COUPON CODE 299A04) ', '2022-6-24 16:19:15'),
+(1243, 'therootofitall', 'https://therootofitall.com/', 'p.AnnouncementBar__Content', 'FREE SHIPPING ON ALL ORDERS', '2022-6-24 16:26:23'),
+(1244, 'theshelvingstore', 'https://www.theshelvingstore.com/', 'a.header-promo__link', 'SAVE 12% ON WIRE SHELVING | CODE: SUMMER12', '2022-6-24 16:34:48'),
+(1245, 'tokendab', 'https://tokendab.com/', 'div.announcement-bar__message>p', 'Free shipping on orders over $42.0!*', '2022-6-24 16:52:4'),
+(1246, 'tothecloudvaporstore', 'https://www.tothecloudvaporstore.com/', 'div.sale_inner>p>strong', 'CODE: S&B20 | Storz & Bickel 20% Off Vaporizer Sale ', '2022-6-24 16:53:47'),
+(1247, 'tripshock', 'https://www.tripshock.com/', '[data-test-id=\"actions\"]>a>div', 'Get $10', '2022-6-24 17:2:44'),
+(1248, 'trynood', 'https://www.trynood.com/', 'a.announcement-bar__message p>strong', '4TH OF JULY SALE STARTS NOW - 30% OFF', '2022-6-24 17:8:48'),
+(1249, 'trysourse', 'https://trysourse.com/', 'li>a.text-bright-lila.bg-primary', 'Get $10', '2022-6-24 17:11:5');
 
 --
 -- Indexes for dumped tables
@@ -1055,7 +1107,7 @@ ALTER TABLE `store`
 -- AUTO_INCREMENT for table `store`
 --
 ALTER TABLE `store`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=1198;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=1250;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
