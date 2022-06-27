@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Jun 24, 2022 at 05:12 PM
+-- Generation Time: Jun 27, 2022 at 04:59 PM
 -- Server version: 10.4.24-MariaDB
 -- PHP Version: 8.1.6
 
@@ -1087,7 +1087,46 @@ INSERT INTO `store` (`id`, `storeName`, `storeURL`, `dealSelector`, `deal`, `tim
 (1246, 'tothecloudvaporstore', 'https://www.tothecloudvaporstore.com/', 'div.sale_inner>p>strong', 'CODE: S&B20 | Storz & Bickel 20% Off Vaporizer Sale ', '2022-6-24 16:53:47'),
 (1247, 'tripshock', 'https://www.tripshock.com/', '[data-test-id=\"actions\"]>a>div', 'Get $10', '2022-6-24 17:2:44'),
 (1248, 'trynood', 'https://www.trynood.com/', 'a.announcement-bar__message p>strong', '4TH OF JULY SALE STARTS NOW - 30% OFF', '2022-6-24 17:8:48'),
-(1249, 'trysourse', 'https://trysourse.com/', 'li>a.text-bright-lila.bg-primary', 'Get $10', '2022-6-24 17:11:5');
+(1249, 'trysourse', 'https://trysourse.com/', 'li>a.text-bright-lila.bg-primary', 'Get $10', '2022-6-24 17:11:5'),
+(1250, 'tubshroom', 'https://tubshroom.com/', 'div.announcement-bar>span', 'Get Free Shipping in the USA on All Orders for a Limited Time!', '2022-6-27 13:43:57'),
+(1251, 'turtlefur', 'https://www.turtlefur.com/', 'div.newslatter>p', 'join our mailing list and get 10% off your next purchase!', '2022-6-27 13:45:23'),
+(1252, 'ufcstore', 'https://ufcstore.com/', 'a.promotional-bar__text', 'FREE SHIPPING ON DOMESTIC ORDERS $75+ *EXCLUSIONS APPLY', '2022-6-27 13:49:28'),
+(1253, 'umzu', 'https://umzu.com/', 'div.promotion_message>p', 'SHIP FREE USA $99+', '2022-6-27 13:55:33'),
+(1254, 'unlimitedcellular', 'https://www.unlimitedcellular.com/', 'div.content-head-tab-links>div:last-child', 'FREE SHIPPINGON ALL ORDERS.', '2022-6-27 14:3:5'),
+(1255, 'uticausa', 'https://uticausa.com/', '#text-3 div.textwidget>p', 'Sign up for Utica USA emails and receive10% OFF your next purchase.', '2022-6-27 14:6:55'),
+(1256, 'vahdamteas', 'https://www.vahdamteas.com/', 'a.Header-announcement', 'DEAL ALERT ! MANGO SPICED ICED TEA - BUY 3 GET 1 | USE CODE : JACKPOT', '2022-6-27 14:9:58'),
+(1257, 'vapordna', 'https://vapordna.com/', 'div.customer-bullets p>a', '15% OFF all 7 Daze E-liquids! code:DAZE15', '2022-6-27 14:11:55'),
+(1258, 'veterinaryformula', 'https://www.veterinaryformula.com/', 'div.home-sub-dog h2', 'Subscribe Monthly and get 20% OFF', '2022-6-27 14:13:45'),
+(1259, 'vibespapers', 'https://vibespapers.com/', 'div.announcement>a>p', '15% Off Site Wide Summer Flash Sale! Use Code SUMMER15 at Checkout', '2022-6-27 14:19:44'),
+(1260, 'victoriaemerson', 'https://www.victoriaemerson.com/', 'div.announcement__text p>span.cart__message-default', 'FREE SHIPPING ON ORDERS OVER $75! JUST $75 USD TO GO ✨', '2022-6-27 14:27:6'),
+(1261, 'victorialandbeauty', 'https://victorialandbeauty.com/', 'div.wrap-newsletter>p', '10% OFF your next order, exclusive deals, instant product updates, and more when you subscribe!', '2022-6-27 14:29:17'),
+(1262, 'vidaoptimacbd', 'https://vidaoptimacbd.com/', 'div.newsletter_section h2', 'GET 15% OFF YOUR FIRST ORDER', '2022-6-27 14:31:28'),
+(1263, 'vincerocollective', 'https://vincerocollective.com/', '#bx-group-1618558-waShEB1', 'Take 15% Off Your Next OrderUse Code:MVP12218hours:21minutes:14seconds', '2022-6-27 14:38:48'),
+(1264, 'vitabrid', 'https://vitabrid.com/', 'p.AnnouncementBar__Content', 'FREE SHIPPING FOR SUBSCRIPTION MEMBERS', '2022-6-27 14:42:23'),
+(1265, 'vitaldiol', 'https://vitaldiol.com/', 'span.announcement__main', 'FREE STANDARD SHIPPING, ALWAYS', '2022-6-27 14:45:11'),
+(1266, 'wandp', 'https://wandp.com/', 'div.announcement-content>p>strong', 'Free shipping on all orders over $50', '2022-6-27 14:47:42'),
+(1267, 'jetson', 'https://jetson.health/', '#announcementBar>a>p', 'Get the first month free of any 2-month subscription. Use code SUMMERSAVE. Shop Now', '2022-6-27 14:54:18'),
+(1268, 'wearepoolside', 'https://wearepoolside.com/', 'span.announcement-text', 'FREE SHIPPING WITHIN THE USA', '2022-6-27 14:56:47'),
+(1269, 'westernrise', 'https://westernrise.com/', 'div.banner.basis--small-title>p', 'Free Shipping over $150 and Free Returns', '2022-6-27 15:23:56'),
+(1270, 'wildcatog', 'https://www.wildcatog.com/', 'div.popup__container>h2', 'Get 5% Off + FREE Shipping Today!', '2022-6-27 15:29:2'),
+(1271, 'yesglasses', 'https://www.yesglasses.com/', '#popup-first-visit-handler', 'Click to get 20% off first pair & free 1.61 hi-index lenses', '2022-6-27 15:38:42'),
+(1272, 'zealoptics', 'https://www.zealoptics.com/', 'a.promo-bar-slider__link', 'FREE SHIPPING* AND RETURNS', '2022-6-27 15:43:36'),
+(1273, 'spiritanimalcoffee', 'https://spiritanimalcoffee.com/', 'div.content-block-upper-2', 'GET 50% OFF YOUR FIRST SUBSCRIPTION', '2022-6-27 15:51:56'),
+(1274, 'beanproducts', 'https://beanproducts.com/', 'div.needsclick>div:nth-child(2) div.ql-editor', 'Get 10% OFF on your next order', '2022-6-27 15:54:36'),
+(1275, 'tailstyle', 'https://tailstyle.com/', 'p.announcement-bar__message', 'Thank you for visiting! Free Shipping on all orders over 99 USD', '2022-6-27 15:56:58'),
+(1276, 'thebeautycrop', 'https://thebeautycrop.com/', 'p.AnnouncementBar__Content>a', 'FREE SHIPPING ON ORDERS OVER $45 ????', '2022-6-27 15:58:16'),
+(1277, 'maxandlily', 'https://maxandlily.com/', 'div.announcement-bar__content', 'Save this Summer! Get 10% off your order of $1,000 or more.Discount applies automatically in cart. Offer Ends 6/26/22', '2022-6-27 15:59:35'),
+(1278, 'maxtrixkids', 'https://www.maxtrixkids.com/', '#header-announcement>a>p', '*Summer Savings* - free shipping on qualifying orders* (ends 6/27)', '2022-6-27 16:4:26'),
+(1279, 'maxtrixkids', 'https://www.maxtrixkids.com/', '#header-announcement>a>p', '*Summer Savings* - free shipping on qualifying orders* (ends 6/27)', '2022-6-27 16:6:3'),
+(1280, 'haroldhome', 'https://haroldhome.co/', '#qab_message', '20% OFF WITH CODE SUMMER20 (ends July 4) ☀️', '2022-6-27 16:9:41'),
+(1281, 'westandwillow', 'https://westandwillow.com/', '#qab_message', '20% OFF WITH CODE SUMMER20 (ends July 4) ☀️', '2022-6-27 16:14:57'),
+(1282, 'magnoliabakery', 'https://www.magnoliabakery.com/', 'span.Announcement__desktop>a', 'ENJOY FAST $25 FLAT RATE SHIPPING (TERMS & CONDITIONS APPLY)', '2022-6-27 16:18:38'),
+(1283, 'cleanorigin', 'https://www.cleanorigin.com/', '#clo-top-msg>div>div', '100% LAB GROWN DIAMONDS | FREE SHIPPING | 100-DAY EASY RETURNS', '2022-6-27 16:21:46'),
+(1284, 'einova', 'https://einova.com/', '#freeshipping>p', 'FREE SHIPPING OVER $50 ON U.S.A. ORDERS | TERMS APPLY', '2022-6-27 16:37:42'),
+(1285, 'twillory', 'https://www.twillory.com/', 'div.freeShiping>span', 'Free US Shipping (for orders of 99+) Free Returns/Exchanges', '2022-6-27 16:50:1'),
+(1286, 'zalousa', 'https://www.zalousa.com/', 'div.announcement-bar__text>p', '20% OFF SITE-WIDE | code: PRIDE20', '2022-6-27 16:51:35'),
+(1287, 'justwater', 'https://justwater.com/', 'p.promo-bar__text>a', 'ALWAYS FREE SHIPPING • SUBSCRIBE & SAVE 15%', '2022-6-27 16:53:48'),
+(1288, 'addjoi', 'https://addjoi.com/', 'ul.annouceslider div.slick-track', '???? FREE SHIPPING ON ORDERS +$55 ????⚡️MILK KITS ARE 15% OFF⚡️✨ 5,000+ 5-Star Reviews ✨???? FREE SHIPPING ON ORDERS +$55 ????⚡️MILK KITS ARE 15% OFF⚡️✨ 5,000+ 5-Star Reviews ✨???? FREE SHIPPING ON ORDERS +$55 ????⚡️MILK KITS ARE 15% OFF⚡️', '2022-6-27 16:58:48');
 
 --
 -- Indexes for dumped tables
@@ -1107,7 +1146,7 @@ ALTER TABLE `store`
 -- AUTO_INCREMENT for table `store`
 --
 ALTER TABLE `store`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=1250;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=1289;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
