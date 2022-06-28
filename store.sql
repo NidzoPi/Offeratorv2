@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Jun 27, 2022 at 04:59 PM
+-- Generation Time: Jun 28, 2022 at 04:20 PM
 -- Server version: 10.4.24-MariaDB
 -- PHP Version: 8.1.6
 
@@ -1126,7 +1126,68 @@ INSERT INTO `store` (`id`, `storeName`, `storeURL`, `dealSelector`, `deal`, `tim
 (1285, 'twillory', 'https://www.twillory.com/', 'div.freeShiping>span', 'Free US Shipping (for orders of 99+) Free Returns/Exchanges', '2022-6-27 16:50:1'),
 (1286, 'zalousa', 'https://www.zalousa.com/', 'div.announcement-bar__text>p', '20% OFF SITE-WIDE | code: PRIDE20', '2022-6-27 16:51:35'),
 (1287, 'justwater', 'https://justwater.com/', 'p.promo-bar__text>a', 'ALWAYS FREE SHIPPING • SUBSCRIBE & SAVE 15%', '2022-6-27 16:53:48'),
-(1288, 'addjoi', 'https://addjoi.com/', 'ul.annouceslider div.slick-track', '???? FREE SHIPPING ON ORDERS +$55 ????⚡️MILK KITS ARE 15% OFF⚡️✨ 5,000+ 5-Star Reviews ✨???? FREE SHIPPING ON ORDERS +$55 ????⚡️MILK KITS ARE 15% OFF⚡️✨ 5,000+ 5-Star Reviews ✨???? FREE SHIPPING ON ORDERS +$55 ????⚡️MILK KITS ARE 15% OFF⚡️', '2022-6-27 16:58:48');
+(1288, 'addjoi', 'https://addjoi.com/', 'ul.annouceslider div.slick-track', '???? FREE SHIPPING ON ORDERS +$55 ????⚡️MILK KITS ARE 15% OFF⚡️✨ 5,000+ 5-Star Reviews ✨???? FREE SHIPPING ON ORDERS +$55 ????⚡️MILK KITS ARE 15% OFF⚡️✨ 5,000+ 5-Star Reviews ✨???? FREE SHIPPING ON ORDERS +$55 ????⚡️MILK KITS ARE 15% OFF⚡️', '2022-6-27 16:58:48'),
+(1289, 'robertwayne', 'https://www.robertwayne.com/', 'p.AnnouncementBar__Content', 'FREE SHIPPING ALL ORDERS', '2022-6-28 10:22:4'),
+(1290, 'gunasthebrand', 'https://www.gunasthebrand.com/', 'div.owl-stage', 'Pay in 4 interest free payments via KLARNAEthically Handmade in SOUTH KOREAFREE SHIPPING over $200 US + CANADA Get 10% off your first order with NEWSLETTER sign upPay in 4 interest free payments via KLARNAEthically Handmade in SOUTH KOREAFREE SHIPPING over $200 US + CANADA Get 10% off your first order with NEWSLETTER sign up', '2022-6-28 10:27:2'),
+(1291, 'grabease', 'https://grabease.com/', '#qab_message', 'Free shipping on orders of $30 or more', '2022-6-28 10:32:57'),
+(1292, 'empe-usa', 'https://empe-usa.com/', '#wide-nav strong', 'Get 15% Off on your first order using Promo Code \"FIRSTEMPE\" ', '2022-6-28 10:34:44'),
+(1293, 'nakedcashmere', 'https://www.nakedcashmere.com/', 'div.rotating-banner-wrapper', 'FREE TRAVEL SET WITH $700+ PURCHASEFREE SHIPPING & RETURNS ON ALL U.S. ORDERSSIGN UP FOR 10% OFF YOUR FIRST ORDER', '2022-6-28 10:39:8'),
+(1294, 'rudyprojectna', 'https://www.rudyprojectna.com/', '#AnnouncementSlider', 'FREE SHIPPING ON SELECT ORDERS OVER $200 IN THE LOWER 48Learn More >90 DAY HASSLE-FREE RETURNSLearn More >', '2022-6-28 10:41:19'),
+(1295, 'cheribundi', 'https://cheribundi.com/', 'div.announcement-bar p', 'FREE SHIPPING ON ALL ORDERS OVER $50', '2022-6-28 10:47:37'),
+(1296, 'ryzesuperfoods', 'https://www.ryzesuperfoods.com/', '#ele_ws1dipk90', 'UNLOCK10% OFFIMMEDIATELY', '2022-6-28 10:51:16'),
+(1297, 'readyrocker', 'https://readyrocker.com/', 'div.ql-editor>p>strong', 'SAVE 10% ', '2022-6-28 10:54:16'),
+(1298, 'shophbd', 'https://www.shophbd.com/', '#pum_popup_title_6365', '				Take $50 off any ShopHBD bed!			', '2022-6-28 11:1:50'),
+(1299, 'pearlparadise', 'https://www.pearlparadise.com/', 'div.carousel-inner', 'Free FedEx 2-Day Shipping on All Domestic Orders with Free 90-Day Return Guarantee', '2022-6-28 11:6:19'),
+(1300, 'petwellbeing', 'https://petwellbeing.com/', 'p.announcement-bar__message', '                Over 30,000+ ⭐⭐⭐⭐⭐ 5-star Reviews | 15% OFF all orders over $100!', '2022-6-28 11:7:33'),
+(1301, 'healthbynaturals', 'https://healthbynaturals.com/', '#fsb_bar', 'OVER 15 YEARS OF EXCLUSIVE PREMIUM NOOTROPICS - Items Ship Same Day* Shipping ONLY $5.99 & FREE Shipping on orders Over $150', '2022-6-28 11:14:55'),
+(1302, 'cubii', 'https://www.cubii.com/', 'div.header-message>p', 'Risk Free 30 Day Money Back Guarantee + FREE SHIPPING on $49+*', '2022-6-28 11:16:49'),
+(1303, 'neatorobotics', 'https://neatorobotics.com/', 'div.easy-notification-bar-message>span', 'Use code WEDDING22 Add any robot vacuum to cart and get 15% off second item!', '2022-6-28 11:25:50'),
+(1304, 'getprovault', 'https://getprovault.com/', 'p.announcement-bar__message', 'FREE STANDARD SHIPPING ON ALL ORDERS $49.99 AND UP', '2022-6-28 11:30:3'),
+(1305, 'vivecbd', 'https://vivecbd.com/', '#fsb_bar_container p', 'Free shipping on orders over $30', '2022-6-28 11:32:13'),
+(1306, 'powerstep', 'https://powerstep.com/', 'span.announcement-text', 'FREE SHIPPING WHEN YOU SPEND $35 OR MORE', '2022-6-28 11:38:8'),
+(1307, 'bargainjunkie', 'https://www.bargainjunkie.com/', 'div.header-promotion>h3>span', 'FREE SHIPPING On Orders Over $15', '2022-6-28 11:40:5'),
+(1308, 'fivecbd', 'https://fivecbd.com/', 'div.swiper-wrapper', 'Save 30% off + free shipping on every order with Subscribe & Save!Free Shipping on All U.S. Orders of $60+ (excluding chocolates)Save 30% off + free shipping on every order with Subscribe & Save!Free Shipping on All U.S. Orders of $60+ (excluding chocolates)', '2022-6-28 11:42:48'),
+(1309, 'artsugar', 'https://artsugar.co/', '#AnnouncementSlider', 'FREE WORLDWIDE SHIPPINGON ORDERS OVER $250⭐️⭐️⭐️⭐️⭐️ 1000+ VERIFIEDREVIEWSJULY 4 SALE ENDS ON JULY 5TAKE 24% OFF WITH CODE: 24JULY4', '2022-6-28 11:45:7'),
+(1310, 'actiontourguide', 'https://actiontourguide.com/', 'span.hustle-title', '10% off your first tour!', '2022-6-28 11:50:46'),
+(1311, 'fieldsupply', 'https://www.fieldsupply.com/', 'div.topbanner div.container p', 'FREE Shipping orders $25+ (excl. ammo, oversized)', '2022-6-28 11:53:25'),
+(1312, 'maaji', 'https://www.maaji.co/', 'span.announcement-text', 'FREE SHIPPING ON ORDERS OVER $50 USD', '2022-6-28 11:58:1'),
+(1313, 'apetropics', 'https://www.apetropics.com/', 'section.section_gift>div.container>h2', 'FREE GIFT ON ORDERS OVER $100', '2022-6-28 12:1:49'),
+(1314, 'botanyfarms', 'https://www.botanyfarms.com/', 'div.in-top-bar>p', 'Free Shipping on All Orders Over $75!', '2022-6-28 12:7:8'),
+(1315, 'diamondveneer', 'https://diamondveneer.com/', 'span.announcement-bar__content', 'FREE SHIPPING ON ALL ORDERS ABOVE $100', '2022-6-28 12:29:42'),
+(1316, 'hometownherocbd', 'https://hometownherocbd.com/', 'div.offer', 'Subscribe for $10 off your next order', '2022-6-28 12:33:36'),
+(1317, 'crosskix', 'https://crosskix.com/', 'div.promo_banner>span', 'FREE PRIORITY SHIPPING IN THE USA! 30 DAY RETURN POLICY - FREE RETURNS & EXCHANGES!', '2022-6-28 12:38:36'),
+(1318, 'mirandafrye', 'https://mirandafrye.com/', 'div.newsletter-text>p', 'Sign up for 10% off your purchase and be the first to know about new arrivals, restocks, sales, styling tips and more.', '2022-6-28 12:41:7'),
+(1319, 'daebak', 'https://daebak.co/', 'div.needsclick>div:nth-child(2) div.ql-editor p>strong', '$5 off', '2022-6-28 12:48:39'),
+(1320, 'royalegyptianbedding', 'https://www.royalegyptianbedding.com/', '#AnnouncementSlider', 'SPECIAL OFFER 10% Off on orders of $125 and overSPECIAL OFFER 10% Off on orders of $125 and overSPECIAL OFFER 10% Off on orders of $125 and overSPECIAL OFFER 10% Off on orders of $125 and over', '2022-6-28 12:50:52'),
+(1321, 'thebeautyspy', 'https://thebeautyspy.com/', 'div.announcement-bar__text>p>strong', '$7.95 DOMESTIC SHIPPING, FREE OVER $60!', '2022-6-28 12:54:48'),
+(1322, 'nanocraftcbd', 'https://nanocraftcbd.com/', 'div.top-header-wrapper', 'FREE SHIPPING ON ORDERS $75+ | 100 DAY MONEY BACK GUARANTEE', '2022-6-28 13:4:47'),
+(1323, 'samplize', 'https://samplize.com/', 'p.announcement-bar__message', 'Get Overnight Shipping for $5', '2022-6-28 13:7:2'),
+(1324, 'essentialsource', 'https://essentialsource.net/', 'div.hustle-group-content', 'Use Code \"20OFF\"at CheckoutThis special cannot be combinedwith any other specials or offers', '2022-6-28 13:9:39'),
+(1325, 'dockslocks', 'https://www.dockslocks.com/', 'p.announcement-bar__message', 'FREE Domestic Shipping and Returns On All Orders', '2022-6-28 13:13:39'),
+(1326, 'chewandheal', 'https://chewandheal.com/', '#fsb_bar', 'Free shipping for orders over $50', '2022-6-28 13:37:14'),
+(1327, 'phblife', 'https://phblife.com/', 'div.et_pb_text_inner>p', 'FREE SHIPPING ON ALL ORDERS OVER $75', '2022-6-28 13:38:37'),
+(1328, 'proears', 'https://proears.com/', 'div.header-announcement>div>div>div>a', ' FREE SHIPPING AVAILABLE', '2022-6-28 13:54:22'),
+(1329, 'taralynnsboutique', 'https://taralynnsboutique.com/', '#banner-message>p', 'SAVE 15% WITH JUNE15 | FREE SHIPPING ON ORDERS OVER $200', '2022-6-28 14:4:44'),
+(1330, 'fsxmarket', 'https://www.fsxmarket.com/', '.emailPopupParagraphSlot p>h1', 'Sign up now and Save 5% off your first purchase!', '2022-6-28 14:10:43'),
+(1331, 'dshhub', 'https://dshhub.com/', 'div.announcement-bar-text', 'Free shipping on All orders!', '2022-6-28 14:24:10'),
+(1332, 'thomasandvine', 'https://thomasandvine.com/', 'div.floating-container>button', 'GET 15% OFF', '2022-6-28 14:26:39'),
+(1333, 'wilewomen', 'https://wilewomen.com/', 'div.ql-editor', 'Save 15% when you sign up for tips anddiscounts delivered straight to your inbox.', '2022-6-28 14:29:36'),
+(1334, 'journeecollection', 'https://journeecollection.com/', 'div.top-bar-left', '30% OFF SANDALS | No code required.', '2022-6-28 14:32:9'),
+(1335, 'muslincomfort', 'https://muslincomfort.com/', 'div.newsletter-template--15200354992328__newsletter div>p', 'Save 15% off your first purchase', '2022-6-28 14:46:21'),
+(1336, 'mdbiowellness', 'https://www.mdbiowellness.com/', 'header.navbar', 'FATHER’S DAY PROMO• 20% OFF YOUR FIRST ORDER OF $25 OR MORE', '2022-6-28 14:48:21'),
+(1337, 'vaxaid', 'https://vaxaid.com/', 'div.top_bar p.top-nav-text', 'free worldwide shipping | 2-year standard                                              warranty | 60-day money back guarantee', '2022-6-28 14:51:30'),
+(1338, 'officialhydromaxpump', 'https://officialhydromaxpump.com/', 'p.announcement-bar__message', 'FREE SHIPPING & DISCREET PACKAGING - GUARANTEED RESULTS!', '2022-6-28 14:55:1'),
+(1339, 'cigarpage', 'https://www.cigarpage.com/', 'div.topbanner p', 'FREE Shipping  Lowest Prices GUARANTEED', '2022-6-28 14:57:44'),
+(1340, 'gourmetfoodworld', 'https://www.gourmetfoodworld.com/', '#divSignupStart', 'for exclusive specials, recipes and save 10% on your next order.', '2022-6-28 15:3:14'),
+(1341, 'steaksandgame', 'https://www.steaksandgame.com/', '#divSignupStart', 'for exclusive specials, recipes and save 10% on your next order.', '2022-6-28 15:4:6'),
+(1342, 'gourmetfoodstore', 'https://www.gourmetfoodstore.com/', '#divSignupStart', 'for exclusive specials, recipes and save 10% on your next order.', '2022-6-28 15:5:18'),
+(1343, 'getwellseasoned', 'https://www.getwellseasoned.com/', 'span.pxs-announcement-bar-text-desktop', 'Use code New25 for 25% off your first box and FREE shipping!', '2022-6-28 15:7:13'),
+(1344, 'americanblossomlinens', 'https://americanblossomlinens.com/', 'div.promo_banner>p', 'FREE SHIPPING TO ALL 50 STATES', '2022-6-28 15:18:33'),
+(1345, 'obvus', 'https://www.obvus.me/', 'p.announcement-bar__message', 'FREE US Shipping On Orders Over $100', '2022-6-28 15:29:32'),
+(1346, 'getshifted', 'https://getshifted.com/', 'p.announcement__text', 'FREE SHIPPING ON ORDERS OVER $75.00', '2022-6-28 15:30:39'),
+(1347, 'alkaviva', 'https://www.alkaviva.com/', 'div.band1 p', 'Get an H2 ionizer with $0 down. 12 months same as cash. Soft-pull credit. 60-day risk-free guarantee. Free Shipping.', '2022-6-28 15:32:54'),
+(1348, 'dl1961', 'https://www.dl1961.com/', '#big-footer>div:last-child>p', 'Get on the list and receive 10% off', '2022-6-28 15:38:17'),
+(1349, 'bulletproof', 'https://www.bulletproof.com/', 'div.ql-editor', 'sAVE ON YOUR FIRST ORDERUNLOCK 15% OFF', '2022-6-28 15:39:42');
 
 --
 -- Indexes for dumped tables
@@ -1146,7 +1207,7 @@ ALTER TABLE `store`
 -- AUTO_INCREMENT for table `store`
 --
 ALTER TABLE `store`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=1289;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=1350;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
