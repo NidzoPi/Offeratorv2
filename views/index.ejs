@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Scraper panel</title>
+        <link rel="icon" href="img/logoSmall.png">
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="css/offeratorStyles.css">
+        <script type="text/javascript" src="/dbInitialize.js"></script>
+        <script type="text/javascript" src="/app.js"></script>
+        <script type="text/javascript" src="/checkAllF.js"></script>
+        <script type="text/javascript" src="/checkDBJS.js"></script>
+        <script type="text/javascript" src="/insertInDB.js"></script>
+        <script type="text/javascript" src="/reportWriterF.js"></script>
+        <script type="text/javascript" src="/scraper.js"></script>
+        <script type="text/javascript" src="/sleepF.js"></script>
+        <script type="text/javascript" src="/takeNameFromURL.js"></script>
+        <script type="text/javascript" src="/takeNowTime.js"></script>
+        <script type="text/javascript" src="/addToSheet.js"></script>
+    </head>
+    <body>
+        <img src="/img/Offerator.png">
+        <hr  class="bannerUnderLine">
+        <div class="container">
+            <h2>Input new store URL where deals are:</h2>
+            <form action="/postInsertData" method="POST">
+                <input type="text" class="textField" placeholder="Store URL" name="storeURL" onclick="this.select()">
+                <h2>Deal selector:</h2>
+                <input type="text" class="textField" placeholder="Deal selector" name="dealSelector">
+                <br>
+                <input type="submit" class="button-7" value="Add">
+            </form>
+            <h2 class="checkingH">Check if there is new deals for existing store:</h2>
+            <form action="/postCheckData" method="POST">
+                <input type="text" class="textField" placeholder="Existing store URL" name="exStoreURL" onclick="this.select()">
+                <br>
+                <input type="submit" class="button-7" value="Check">
+            </form>
+            <br>
+            <form action="/checkAllData" method="POST">
+                <input type="submit" class="button-7" value="Check All">
+            </form>
+            <br>
+            <h2>Select and check stores:</h2>
+            <form class="checkSel" action="/checkSelected" method="POST">
+                <input type="submit" class="button-7" value="Check Selected">
+                <br>
+                <br>
+                <div class="multi-selector">
+                    <div class="select-field">
+                        <input type="text" name="" placeholder="Search for store" id="searchInput" class="input-selector">
+                        <span class="down-arrow">&blacktriangledown;</span>
+                    </div>
+    
+                    <div class="list" name="lista"><!--start-->
+                        <% for(var j = 0; j < store_data.length; j++){ %>
+
+                        <label for="task" class="task">
+                            <input type="checkbox" name="listed" id="task<%= j+1%>" value="<%= store_data[j].storeName %>"><%= store_data[j].storeName %>
+                        </label>
+                        <% }%>
+                        <!--</label>end-->
+                    </div>
+                </div>
+            </form>
+        </div>
+        <br>
+        <hr  class="bannerUnderLine">
+        <script>
+            document.querySelector('.down-arrow').addEventListener('click',()=>{
+                document.querySelector('.list').classList.toggle('show');
+                document.querySelector('.down-arrow').classList.toggle('rotate180');
+            });
+        </script>
+        <script>
+            document.querySelector('#searchInput').onkeyup = function() {
+                for(var k = 0; k < document.querySelectorAll('.task>input').length; k++){
+                    if(document.querySelectorAll('.task>input')[k].value.indexOf(document.querySelector('#searchInput').value) > -1){
+                        document.querySelectorAll('.task')[k].style.display = "";
+                    }else{
+                        document.querySelectorAll('.task')[k].style.display = "none";
+                    }
+                }
+            }
+        </script>
+        <script>
+            document.querySelector('#searchInput').onfocus = function(){
+                if(typeof document.querySelector('.list').classList[1] == 'undefined'){
+                document.querySelector('.list').classList.toggle('show');
+                document.querySelector('.down-arrow').classList.toggle('rotate180');
+                }
+                else{
+                    return false;
+                }
+            }
+        </script>
+    </body>
+
+</html>
