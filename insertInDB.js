@@ -1,4 +1,5 @@
 var insSheet = require('./addToSheet');
+var insCortSheet = require('./addToCortneySheet');
 var dbIni = require('./dbInitialize.js');
 var reporter = require('./reportWriterF');
 
@@ -43,15 +44,54 @@ function insertInDB(storeURLScrape, storeNameFinal, currDealSelector, codes, cur
                 throw err;
 
               }else{
-
-                insSheet.addToSheet(values);
+                var primarySitesCortney = [
+                  'guns',
+                  'withclarity',
+                  'medterracbd',
+                  'naadam',
+                  'sundaysfordogs',
+                  'carawayhome',
+                  'thewebster',
+                  'cutterbuck',
+                  'surlatable',
+                  'picturesongold',
+                  'gundrymd', 'magnoliabakery',
+                  'personalcreations',
+                  'thecbdistillery',
+                  'frootbat',
+                  'storz-bickel',
+                  'paulaschoice',
+                  'supercuts',
+                  'theayurvedaexperience',
+                  'aimeekestenberg',
+                  'jasemedical',
+                  'onnit',
+                  'everyplate',
+                  'quicksilverscientific',
+                  'marshalls',
+                  'legendarywhitetails',
+                  'solawave',
+                  'kingschools',
+                  'tripmasters',
+                  'safelite',
+                  'shopmaximumfitness',
+                  'nasm',
+                  'bloomchic',
+                  'canadapharmacy',
+                  'safcodental',
+                  'albanypark'
+                ]
+                if(primarySitesCortney.includes(storeNameFinal)){
+                  insCortSheet.addToSheet(values);
+                } else {
+                  insSheet.addToSheet(values);
+                }
                 
                 console.log('Store ' + storeNameFinal + ' added in DB');
                 
               }
           });
         }
-        
       });    
       }  
 

@@ -1,16 +1,16 @@
 const scrape = require('./scraper');
 var dbIni = require('./dbInitialize.js');
 
-function checkSelectedBase(selectedStores){    
+function checkSelectedBasePrimary(selectedStores){    
     const db = dbIni.initializeDB();
     db.connect((err) => {
         if(err){
         throw err;
         }else{
             console.log('DB connected');
-            let selectedSitesString = JSON.stringify(selectedStores);
+            let primarySitesString = JSON.stringify(selectedStores);
             //console.log(primarySitesString.replaceAll(',',' or ').replaceAll('[','').replaceAll(']','').replaceAll(`"`,`'`));
-            let sql = 'SELECT * FROM store WHERE storeName IN (' + selectedSitesString.replaceAll('[','').replaceAll(']','').replaceAll(`"`,`'`) +') AND id IN (SELECT MAX(id) FROM store GROUP BY storeName);';
+            let sql = 'SELECT * FROM store WHERE storeName IN (' + primarySitesString.replaceAll('[','').replaceAll(']','').replaceAll(`"`,`'`) +') AND id IN (SELECT MAX(id) FROM store GROUP BY storeName);';
             //console.log(sql);
             //let sql = 'SELECT * FROM store WHERE id BETWEEN 1075 AND 1154;'
             db.query(sql,async function(err, rows){
@@ -29,4 +29,4 @@ function checkSelectedBase(selectedStores){
         }
     });
 }
-module.exports.checkSelectedBase = checkSelectedBase;
+module.exports.checkSelectedBasePrimary = checkSelectedBasePrimary;
