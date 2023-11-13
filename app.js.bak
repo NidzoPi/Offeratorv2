@@ -12,8 +12,6 @@ var checkALLDB = require('./checkAllF');
 var scrapeIt = require('./scraper');
 var selCheck = require('./checkSelected');
 var database = require('./dbInitialize.js');
-var checkCSMs = require('./checkCSMData.js');
-
 // PORT define
 
 
@@ -49,9 +47,7 @@ module.exports = router;
 app.post('/postInsertData', (req, res) => {
     var storeURL = (req.body.storeURL);
     var dealSelector = (req.body.dealSelector);
-    var csm = (req.body.csmNameInput);
-    console.log(csm);
-    scrapeIt.scrapeProduct(storeURL, dealSelector, '', csm);
+    scrapeIt.scrapeProduct(storeURL, dealSelector, '');
     res.end('URL: ' + storeURL + ' Deal selector: ' + dealSelector);
 });
 
@@ -69,12 +65,6 @@ app.post('/checkSelected', (req, res) => {
     var selectedTrue = (req.body.listed);
     console.log(selectedTrue);
     selCheck.checkSelectedBase(selectedTrue);
-    res.end('Checking selected store...')
-});
-app.post('/checkCSMData', (req, res) => {
-    var selectedTrue = (req.body.csmNameCheck);
-    console.log(selectedTrue);
-    checkCSMs.checkCSMBase(selectedTrue);
     res.end('Checking selected store...')
 });
 app.post('/checkPrimary', (req, res) => {
@@ -153,6 +143,7 @@ app.post('/checkPrimary', (req, res) => {
         'canadapharmacy',
         'safcodental',
         'albanypark'
+
     ]
     databasePrimary.checkSelectedBasePrimary(primarySites);
     res.end('Checking selected store...');
