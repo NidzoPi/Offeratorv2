@@ -23,11 +23,28 @@
         <div class="container">
             <h2>Input new store URL where deals are:</h2>
             <form action="/postInsertData" method="POST">
-                <input type="text" class="textField" placeholder="Store URL" name="storeURL" onclick="this.select()">
+                <input type="text" class="textField" placeholder="Store URL" name="storeURL" onclick="this.select()" >
                 <h2>Deal selector:</h2>
                 <input type="text" class="textField" placeholder="Deal selector" name="dealSelector">
                 <br>
-                <input type="submit" class="button-7" value="Add">
+                <br>
+                <div class="dropdown">
+                    <div class="selected">
+                        <span class="csmName" name="csm_Name">CSM Name</span>
+                        <input type="text" class="textFieldCSM" name="csmNameInput" style="display: none">
+                        <div class="caret"></div>
+                    </div>
+                    <ul class="csmMenu">
+                        <li class="active">Kevin</li>
+                        <li>Sophia</li>
+                        <li>Mary</li>
+                        <li>Cortney</li>
+                        <li>Sladjana</li>
+                        <li>Dolores</li>
+                        <li>Mohit</li>
+                    </ul>
+                </div>
+                <input type="submit" class="button-7" value="Add" style="position:inherit">
             </form>
             <h2 class="checkingH">Check if there is new deals for existing store:</h2>
             <form action="/postCheckData" method="POST">
@@ -40,12 +57,30 @@
                 <input type="submit" class="button-7" value="Check All">
             </form>
             <br>
-            <form action="/checkPrimary" method="POST">
-                <input type="submit" class="button-7" value="Check Primary">
+            <h2>Check stores by CSM name:</h2>
+            <form action="/checkCSMData" method="POST">
+                <div class="dropdown">
+                    <div class="selected">
+                        <span class="csmName" name="csm_Name">CSM Name</span>
+                        <input type="text" class="textFieldCSM" name="csmNameCheck" style="display: none">
+                        <div class="caret"></div>
+                    </div>
+                    <ul class="csmMenu">
+                        <li class="active">Kevin</li>
+                        <li>Sophia</li>
+                        <li>Mary</li>
+                        <li>Cortney</li>
+                        <li>Sladjana</li>
+                        <li>Dolores</li>
+                        <li>Mohit</li>
+                    </ul>
+                </div>
+                <br>
+                <input type="submit" class="button-7" value="Check CSM">
             </form>
             <br>
             <h2>Select and check stores:</h2>
-            <form class="checkSel" action="/checkSelected" method="POST">
+            <form class="checkSel" action="/checkSelected" method="POST" style="position: relative">
                 <input type="submit" class="button-7" value="Check Selected">
                 <br>
                 <br>
@@ -96,6 +131,39 @@
                     return false;
                 }
             }
+        </script>
+        <script>
+            const dropdowns = document.querySelectorAll('.dropdown');
+
+            dropdowns.forEach(dropdown => {
+                const select = dropdown.querySelector('.selected');
+                const caret = dropdown.querySelector('.caret');
+                const menu = dropdown.querySelector('.csmMenu');
+                const options = dropdown.querySelectorAll('.csmMenu li')
+                const selected = dropdown.querySelector('.csmName');
+
+
+                select.addEventListener('click', () => {
+                    select.classList.toggle('selected-clicked');
+                    caret.classList.toggle('caret-rotate');
+                    menu.classList.toggle('menu-open');
+                });
+
+                options.forEach(option =>{
+                    option.addEventListener('click', () =>{
+                        selected.innerText = option.innerText;
+                        console.log(selected.innerText);
+                        document.querySelector('[name="csmNameCheck"]').value = selected.innerText;
+                        document.querySelector('.textFieldCSM').value = selected.innerText;
+                        select.classList.remove('selected-clicked');
+                        caret.classList.remove('caret-rotate');
+                        menu.classList.remove('menu-open');
+                        options.forEach(option => {
+                            option.classList.remove('active');
+                        });
+                    });
+                });
+            });
         </script>
     </body>
 
